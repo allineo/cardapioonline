@@ -1,33 +1,26 @@
-function MenuPage() {
-  return (
-    <div >
-      <table>
-        <tr>
-          <td>
-            <img src='photos/Pizzas.jpg' alt="Pizzas" width="150" />
-          </td>
-          <td>
-            <img src='photos/Marmita Fitness.jpg' alt="Marmita" width="150" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src='photos/Sucolés.jpg' alt="Sucolés" width="150" />
-          </td>
-          <td>
-            <img src='photos/Café.jpg' alt="Café" width="150" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src='photos/Lasanha.jpg' alt="Lasanha" width="150" />
-          </td>
-          <td>
-          </td>
-        </tr>
-      </table>
-    </div>
-  );
+import CombosPage from './menupages/combos';
+import PizzasPage from './menupages/pizzas';
+import MarmitasPage from './menupages/marmitas';
+import SucosPage from './menupages/sucos';
+import CafePage from './menupages/cafe';
+import BebidasPage from './menupages/bebidas';
+
+
+function MenuPage(props) {
+
+  if (props.currentMenu === 'Pizzas') {
+    return (<PizzasPage />);
+  } else if (props.currentMenu === 'Marmitas') {
+    return (<MarmitasPage />);
+  } else if (props.currentMenu === 'Sucos') {
+    return (<SucosPage />);
+  } else if (props.currentMenu === 'Café') {
+    return (<CafePage />);
+  } else if (props.currentMenu === 'Bebidas') {
+    return (<BebidasPage />);
+  } else {
+    return (<CombosPage />);
+  }
 }
 
 export default MenuPage;
