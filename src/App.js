@@ -3,11 +3,7 @@ import HomePage from './pages/home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <HomePage />
-      </header>
-    </div>
+    <HomePage />
   );
 }
 

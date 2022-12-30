@@ -1,24 +1,19 @@
 function SucosPage() {
+  const imagePizzaList = [
+    "photos/sucos/suco-01.jpg", 
+    "photos/sucos/suco-02.jpg", 
+    "photos/sucos/suco-03.jpg",
+    "photos/sucos/suco-04.jpg"
+  ]
   return (
-    <div >
-      <table>
-        <tr>
-          <td>
-            <img src='photos/Sucolés.jpg' alt="Sucolés" width="150" />
-          </td>
-          <td>
-            <img src='photos/Sucolés.jpg' alt="Sucolés" width="150" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src='photos/Sucolés.jpg' alt="Sucolés" width="150" />
-          </td>
-          <td>
-            <img src='photos/Sucolés.jpg' alt="Sucolés" width="150" />
-          </td>
-        </tr>
-      </table>
+    <div className="list">
+      {imagePizzaList.map(img => {
+        return( 
+					<div className="list-item">
+						<img src={img} />
+					</div>
+				)
+    	})}
     </div>
   );
 }

@@ -1,24 +1,19 @@
 function CafePage() {
+  const imageCafeList = [
+    "photos/cafes/cafe-01.jpg", 
+    "photos/cafes/cafe-02.jpg", 
+    "photos/cafes/cafe-03.jpg",
+    "photos/cafes/cafe-04.jpg"
+  ]
   return (
-    <div >
-      <table>
-        <tr>
-          <td>
-            <img src='photos/Café.jpg' alt="Café" width="150" />
-          </td>
-          <td>
-            <img src='photos/Café.jpg' alt="Café" width="150" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src='photos/Café.jpg' alt="Café" width="150" />
-          </td>
-          <td>
-            <img src='photos/Café.jpg' alt="Café" width="150" />
-          </td>
-        </tr>
-      </table>
+    <div className="list">
+      {imageCafeList.map(img => {
+        return( 
+					<div className="list-item">
+						<img src={img} />
+					</div>
+				)
+    	})}
     </div>
   );
 }

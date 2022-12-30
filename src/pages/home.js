@@ -1,35 +1,28 @@
 import { useState } from 'react';
-import MenuLeftPage from './menuleft';
-import MenuPage from './menu';
+import NavbarLeft from './navbarLeft';
+import '../assets/css/home.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Header from './header';
+
+
 
 function HomePage() {
 
   const [currentMenu, setCurrentMenu] = useState(null);
 
   return (
-    <div >
-      <table>
-        <tr>
-          <td>
-            Chefe Ricardo  <br />
-            Congelados Delivery <br /><br />
-          </td>
-          <td>
-            <center>
-              CARDÁPIO DO DIA <br />
-              <img src='chefericardo.png' className="App-logo" alt="logo" />
-            </center>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <MenuLeftPage setCurrentMenu={setCurrentMenu} />
-          </td>
-          <td>
-            <MenuPage currentMenu={currentMenu} />
-          </td>
-        </tr>
-      </table>
+    <div className="home-content">
+      <Container>
+          <Row className="justify-content-md-center">
+            <Col xs lg="8">
+              <Header></Header>
+              <NavbarLeft />
+            </Col>
+
+          </Row>
+      </Container>
     </div>
   );
 }

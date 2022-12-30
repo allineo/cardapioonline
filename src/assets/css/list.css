@@ -1,0 +1,16 @@
+.list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0.8rem;
+    column-gap: 0.8rem;
+}
+
+.list-item{
+    height: 200px;
+}
+
+.list-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

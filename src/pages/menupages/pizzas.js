@@ -1,24 +1,21 @@
+import '../../assets/css/list.css';
+
 function PizzasPage() {
+  const imagePizzaList = [
+    "photos/pizzas/pizza-01.jpg", 
+    "photos/pizzas/pizza-02.jpg", 
+    "photos/pizzas/pizza-03.jpg",
+    "photos/pizzas/pizza-04.jpg"
+  ]
   return (
-    <div >
-      <table>
-        <tr>
-          <td>
-            <img src='photos/Pizzas.jpg' alt="Pizzas" width="150" />
-          </td>
-          <td>
-            <img src='photos/Pizzas.jpg' alt="Pizzas" width="150" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src='photos/Pizzas.jpg' alt="Pizzas" width="150" />
-          </td>
-          <td>
-            <img src='photos/Pizzas.jpg' alt="Pizzas" width="150" />
-          </td>
-        </tr>
-      </table>
+    <div className="list">
+      {imagePizzaList.map(img => {
+        return( 
+					<div className="list-item">
+						<img src={img} />
+					</div>
+				)
+    	})}
     </div>
   );
 }
