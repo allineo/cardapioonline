@@ -1,0 +1,13 @@
+.home-content {
+    background-color: #282c34;
+    min-height: 100vh;
+}
+
+.home-header {
+    margin: 20px 0;
+}
+
+.home-title {
+    color: white;
+    font-size: 32px;
+}

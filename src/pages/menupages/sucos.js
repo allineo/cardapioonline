@@ -1,24 +1,21 @@
 function SucosPage() {
+
+  const imageList = [
+    "sucoles", 
+    "sucoles2", 
+    "sucoles", 
+    "sucoles2"
+  ]
   return (
-    <div >
-      <table>
-        <tr>
-          <td>
-            <img src='photos/Sucolés.jpg' alt="Sucolés" width="150" />
-          </td>
-          <td>
-            <img src='photos/Sucolés.jpg' alt="Sucolés" width="150" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src='photos/Sucolés.jpg' alt="Sucolés" width="150" />
-          </td>
-          <td>
-            <img src='photos/Sucolés.jpg' alt="Sucolés" width="150" />
-          </td>
-        </tr>
-      </table>
+    <div className="list">
+      {imageList.map(img => {
+        img = 'photos/sucos/' + img + '.jpg';
+        return( 
+					<div className="list-item">
+						<img src={img} />
+					</div>
+				)
+    	})}
     </div>
   );
 }

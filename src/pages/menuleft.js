@@ -1,9 +1,7 @@
 
-
 function MenuLeftPage(props) {
   return (
     <div>
-      <img src='icons/combosicon.jpg' alt="Combos" width="100" onClick={() => props.setCurrentMenu('Combos')} /><br />
       <img src='icons/pizzaicon.jpg' alt="Pizzas" width="100" onClick={() => props.setCurrentMenu('Pizzas')} /><br />
       <img src='icons/marmitasicon.jpg' alt="Marmitas" width="100" onClick={() => props.setCurrentMenu('Marmitas')} /><br />
       <img src='icons/sucosicon.jpg' alt="Sucos" width="100" onClick={() => props.setCurrentMenu('Sucos')} /><br />
