@@ -1,25 +1,24 @@
+import '../../css/list.css';
+import { cardapio } from './cardapiojson';
+
 
 function BebidasPage() {
-
-  const imageList = [
-    "vinhos", 
-    "agua",
-    "heineken",
-    "brahma",
-    "cocacola", 
-    "guarana"
-  ]
-  
+  const itemList = cardapio['bebidas'];
   return (
     <div className="list">
-      {imageList.map(img => {
-        img = 'photos/bebidas/' + img + '.jpg';
-        return( 
-					<div className="list-item">
-						<img src={img} />
-					</div>
-				)
-    	})}
+      {itemList.map(item => {
+        const imgname = 'photos/bebidas/' + item.image + '.jpg';
+        return (<div>
+          <div className="list-item">
+            <img src={imgname} />
+          </div>
+          <div className="list-item">
+            <b>{item.nome}</b><br/>
+            {item.descricao}<br/>
+            <b>R$ {item.valor}</b> ({item.unidade})
+          </div>
+        </div>)
+      })}
     </div>
   );
 }

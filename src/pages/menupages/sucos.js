@@ -1,21 +1,23 @@
-function SucosPage() {
+import '../../css/list.css';
+import { cardapio } from './cardapiojson';
 
-  const imageList = [
-    "sucoles", 
-    "sucoles2", 
-    "sucoles", 
-    "sucoles2"
-  ]
+function SucosPage() {
+  const itemList = cardapio['sucos'];
   return (
     <div className="list">
-      {imageList.map(img => {
-        img = 'photos/sucos/' + img + '.jpg';
-        return( 
-					<div className="list-item">
-						<img src={img} />
-					</div>
-				)
-    	})}
+      {itemList.map(item => {
+        const imgname = 'photos/sucos/' + item.image + '.jpg';
+        return (<div>
+          <div className="list-item">
+            <img src={imgname} />
+          </div>
+          <div className="list-item">
+            <b>{item.nome}</b><br/>
+            {item.descricao}<br/>
+            <b>R$ {item.valor}</b> ({item.unidade})
+          </div>
+        </div>)
+      })}
     </div>
   );
 }

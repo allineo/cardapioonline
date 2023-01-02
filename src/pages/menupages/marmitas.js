@@ -1,21 +1,22 @@
+import '../../css/list.css';
+import { cardapio } from './cardapiojson';
 
 function MarmitasPage() {
-
-  const imageList = [
-    "lasanha", 
-    "feijoada", 
-    "marmitafit",
-    "escondecarneseca"
-  ]
+  const itemList = cardapio['marmitas'];
   return (
     <div className="list">
-      {imageList.map(img => {
-        img = 'photos/marmitas/' + img + '.jpg';
-        return( 
-					<div className="list-item">
-						<img src={img} />
-					</div>
-				)
+      {itemList.map(item => {
+        const imgname = 'photos/marmitas/' + item.image + '.jpg';
+        return (<div>
+          <div className="list-item">
+            <img src={imgname} />
+          </div>
+          <div className="list-item">
+            <b>{item.nome}</b><br/>
+            {item.descricao}<br/>
+            <b>R$ {item.valor}</b> ({item.unidade})
+          </div>
+        </div>)
     	})}
     </div>
   );
