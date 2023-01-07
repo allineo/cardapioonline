@@ -1,82 +1,55 @@
+import React, { useRef, useState } from 'react';
+import SwiperCore, { Virtual, Navigation, Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-function MainMenu(props) {
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import '../css/swiper.css'
+import { cardapio } from './cardapiojson';
+
+
+function MainMenu() {
   return (
     <div>
-      <MenuCombos />
-      <MenuPizzas />
-      <MenuMarmitas />
-      <MenuSucos />
-      <MenuCafe />
-      <MenuBebidas />
+      <MenuSlides currentMenu='combos' />
+      <MenuSlides currentMenu='pizzas' />
+      <MenuSlides currentMenu='marmitas' />
+      <MenuSlides currentMenu='sucos' />
+      <MenuSlides currentMenu='cafes' />
+      <MenuSlides currentMenu='bebidas' />
     </div>);
 }
 
 
+function MenuSlides(props) {
+  SwiperCore.use([Virtual, Navigation, Pagination]);
 
-function MenuCombos(props) {
-  return (
-    <div>
-      <img src='photos/combos/marmitacombo.jpg' alt="Coca-Cola" width="100" onClick={() => props.setCurrentMenu('Pizzas')} />&nbsp;&nbsp;
-      <img src='photos/combos/sucoles2.jpg' alt="Vinhos" width="100" onClick={() => props.setCurrentMenu('Marmitas')} />&nbsp;&nbsp;
-      <img src='photos/combos/pizza.jpg' alt="Sucos" width="100" onClick={() => props.setCurrentMenu('Sucos')} />&nbsp;&nbsp;
-      <img src='photos/combos/cafe.jpg' alt="Café da Manhã" width="100" onClick={() => props.setCurrentMenu('Café')} />&nbsp;&nbsp;
-    </div>);
-}
+  const [swiperRef, setSwiperRef] = useState(null);
 
-function MenuPizzas(props) {
-  return (
-    <div>
-      <img src='photos/pizzas/pizza.jpg' alt="Coca-Cola" width="100" onClick={() => props.setCurrentMenu('Pizzas')} />&nbsp;&nbsp;
-      <img src='photos/pizzas/pizza.jpg' alt="Vinhos" width="100" onClick={() => props.setCurrentMenu('Marmitas')} />&nbsp;&nbsp;
-      <img src='photos/pizzas/pizza.jpg' alt="Sucos" width="100" onClick={() => props.setCurrentMenu('Sucos')} />&nbsp;&nbsp;
-      <img src='photos/pizzas/pizza.jpg' alt="Café da Manhã" width="100" onClick={() => props.setCurrentMenu('Café')} />&nbsp;&nbsp;
-      <img src='photos/pizzas/pizza.jpg' alt="Bebidas" width="100" onClick={() => props.setCurrentMenu('Bebidas')} />&nbsp;&nbsp;
-    </div>);
-}
+  const photos = cardapio[props.currentMenu];
+  let slides = [];
+  for (let item in photos) {
+    const imgname = 'photos/' + props.currentMenu + '/' + photos[item].image + '.jpg';
+    slides.push(<img src={imgname} alt={photos[item].nome} />);
+  }
 
-function MenuMarmitas(props) {
   return (
-    <div>
-      <img src='photos/marmitas/marmitafit.jpg' alt="marmitafit" width="100" onClick={() => props.setCurrentMenu('Pizzas')} />&nbsp;&nbsp;
-      <img src='photos/marmitas/feijoada.jpg' alt="Feijoada" width="100" onClick={() => props.setCurrentMenu('Marmitas')} />&nbsp;&nbsp;
-      <img src='photos/marmitas/lasanha.jpg' alt="Lasanha" width="100" onClick={() => props.setCurrentMenu('Sucos')} />&nbsp;&nbsp;
-      <img src='photos/marmitas/escondecarneseca.jpg' alt="Café da Manhã" width="100" onClick={() => props.setCurrentMenu('Café')} />&nbsp;&nbsp;
-      <img src='photos/marmitas/marmitafit.jpg' alt="Bebidas" width="100" onClick={() => props.setCurrentMenu('Bebidas')} />&nbsp;&nbsp;
-    </div>);
-}
-
-function MenuSucos(props) {
-  return (
-    <div>
-      <img src='photos/sucos/sucoles.jpg' alt="Sucolé" width="100" onClick={() => props.setCurrentMenu('Pizzas')} />&nbsp;&nbsp;
-      <img src='photos/sucos/sucoles2.jpg' alt="Sucolé" width="100" onClick={() => props.setCurrentMenu('Marmitas')} />&nbsp;&nbsp;
-      <img src='photos/sucos/sucoles.jpg' alt="Sucolé" width="100" onClick={() => props.setCurrentMenu('Sucos')} />&nbsp;&nbsp;
-      <img src='photos/sucos/sucoles2.jpg' alt="Suco" width="100" onClick={() => props.setCurrentMenu('Café')} />&nbsp;&nbsp;
-      <img src='photos/sucos/sucoles.jpg' alt="Sucolé" width="100" onClick={() => props.setCurrentMenu('Bebidas')} />&nbsp;&nbsp;
-    </div>);
-}
-
-function MenuCafe(props) {
-  return (
-    <div>
-      <img src='photos/cafes/cafe.jpg' alt="Coca-Cola" width="100" onClick={() => props.setCurrentMenu('Pizzas')} />&nbsp;&nbsp;
-      <img src='photos/cafes/cafe.jpg' alt="Vinhos" width="100" onClick={() => props.setCurrentMenu('Marmitas')} />&nbsp;&nbsp;
-      <img src='photos/cafes/cafe.jpg' alt="Sucos" width="100" onClick={() => props.setCurrentMenu('Sucos')} />&nbsp;&nbsp;
-      <img src='photos/cafes/cafe.jpg' alt="Café da Manhã" width="100" onClick={() => props.setCurrentMenu('Café')} />&nbsp;&nbsp;
-      <img src='photos/cafes/cafe.jpg' alt="Bebidas" width="100" onClick={() => props.setCurrentMenu('Bebidas')} />&nbsp;&nbsp;
-    </div>);
-}
-
-function MenuBebidas(props) {
-  return (
-    <div>
-      <img src='photos/bebidas/vinhos.jpg' alt="Coca-Cola" width="100" onClick={() => props.setCurrentMenu('Pizzas')} />&nbsp;&nbsp;
-      <img src='photos/bebidas/heineken.jpg' alt="Vinhos" width="100" onClick={() => props.setCurrentMenu('Marmitas')} />&nbsp;&nbsp;
-      <img src='photos/bebidas/brahma.jpg' alt="Vinhos" width="100" onClick={() => props.setCurrentMenu('Marmitas')} />&nbsp;&nbsp;
-      <img src='photos/bebidas/cocacola.jpg' alt="Sucos" width="100" onClick={() => props.setCurrentMenu('Sucos')} />&nbsp;&nbsp;
-      <img src='photos/bebidas/guarana.jpg' alt="Café da Manhã" width="100" onClick={() => props.setCurrentMenu('Café')} />&nbsp;&nbsp;
-      <img src='photos/bebidas/agua.jpg' alt="Bebidas" width="100" onClick={() => props.setCurrentMenu('Bebidas')} />&nbsp;&nbsp;
-    </div>);
+    <Swiper
+      onSwiper={setSwiperRef}
+      slidesPerView={2}
+      centeredSlides={false}
+      spaceBetween={10}
+      navigation={true}
+      virtual
+    >
+      {slides.map((slideContent, index) => (
+        <SwiperSlide key={slideContent} virtualIndex={index}>
+          {slideContent}
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  );
 }
 
 export default MainMenu;
