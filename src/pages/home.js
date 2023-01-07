@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Header from './header';
 import MenuPages from './menupages';
-import MenuLeftPage from './menuleft';
 
 
 function HomePage() {
@@ -17,21 +16,9 @@ function HomePage() {
       <Container>
         <Row className="justify-content-md-center">
           <Col xs lg="8">
-
-            <Header></Header>
-
-            <div>
-              <Row>
-                <Col xs lg="2">
-                  <MenuLeftPage setCurrentMenu={setCurrentMenu} />
-                </Col>
-                <Col xs lg="10">
-                    <MenuPages currentMenu={currentMenu} />
-                </Col>
-              </Row>
-            </div>
+            <Header currentMenu={currentMenu} setCurrentMenu={setCurrentMenu} />
+            <MenuPages currentMenu={currentMenu} setCurrentMenu={setCurrentMenu} />
           </Col>
-
         </Row>
       </Container>
     </div>

@@ -2,9 +2,9 @@ import '../css/home.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function Header() {
+function Header(props) {
     return (
-        <div className='home-header'>
+        <div className='home-header'  onClick={() => props.setCurrentMenu('mainmenu')}>
             <Row>
                 <Col xs lg="2" className="align-center">
                     <img src='chefericardo.png' className="App-logo" alt="logo" />
