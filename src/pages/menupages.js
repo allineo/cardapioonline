@@ -41,11 +41,17 @@ function PageContent(props) {
           <div className="list-item">
             <img src={imgname} alt={item.nome} onClick={() => props.setCurrentMenu(props.currentMenu)} />
           </div>
+          <br />
           <div className="list-item">
-            <b>{item.nome}</b><br />
-            {item.descricao}<br />
-            <b>R$ {item.valor}</b> ({item.unidade})
+            <b>{item.nome}</b>
+            <div className="list-description">
+              {item.descricao}
+            </div>
+            <br />
+            <b>R$ {item.valor}</b> 
+            <div className="list-description">({item.unidade})</div>
           </div>
+          <br /><br />
         </div>)
       })}
     </div>

@@ -28,6 +28,7 @@ export const cardapio = {
   'sucos': [
     { "image": "sucoles2", "nome": "Suco de Uva Integral", "valor": 8.00, "unidade": "taça - 250 ml", "descricao": "Uva Roxa Macerada (sem água, sem açúcar)" },
     { "image": "sucoles", "nome": "Sucolé de Uva Integral", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Uva Roxa Macerada Congelada (sem água, sem açúcar)" },
+    { "image": "sucolecoco", "nome": "Sucolé de Côco", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Leite extraído do côco, Mel" },
     { "image": "sucoles", "nome": "Sucolé de Açaí", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Polpa de Açaí, Mel, Banana" },
   ],
 
@@ -44,7 +45,7 @@ export const cardapio = {
     { "image": "brahma", "nome": "Cerveja Brahma", "valor": 9.00, "unidade": "latão - ml", "descricao": "" },
     { "image": "cocacola", "nome": "Coca-cola", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "" },
     { "image": "guarana", "nome": "Guaraná Antártica", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "" },
-    { "image": "agua", "nome": "Água com gás", "valor": 5.00, "unidade": "500 ml", "descricao": "Minalba" },
-    { "image": "agua", "nome": "Água sem gás", "valor": 4.00, "unidade": "500 ml", "descricao": "Minalba" },
+    { "image": "aguacomgas", "nome": "Água com gás", "valor": 5.00, "unidade": "500 ml", "descricao": "Minalba" },
+    { "image": "aguasemgas", "nome": "Água sem gás", "valor": 4.00, "unidade": "500 ml", "descricao": "Minalba" },
   ]
 }
