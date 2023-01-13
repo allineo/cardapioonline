@@ -37,6 +37,8 @@ function PageContent(props) {
     <div className="list">
       {itemList.map(item => {
         const imgname = 'photos/' + props.currentMenu + '/' + item.image + '.jpg';
+        const msgpedido = 'https://api.whatsapp.com/send?phone=5521981351099&text=' +
+          'Adicionar ao meu pedido:\n\n  *' + item.nome + '*';
         return (<div>
           <div className="list-item">
             <img src={imgname} alt={item.nome} onClick={() => props.setCurrentMenu(props.currentMenu)} />
@@ -48,9 +50,10 @@ function PageContent(props) {
               {item.descricao}
             </div>
             <br />
-            <b>R$ {item.valor}</b> 
+            <b>R$ {item.valor}</b>
             <div className="list-description">({item.unidade})</div>
           </div>
+          <center><a href={msgpedido} target='_blank'><button>Pedir</button></a></center>
           <br /><br />
         </div>)
       })}

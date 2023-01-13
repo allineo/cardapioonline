@@ -19,23 +19,24 @@ export const cardapio = {
   ],
 
   'marmitas': [
-    { "image": "lasanha", "nome": "Lasanha de carne", "valor": 19.90, "unidade": "450g", "descricao": "Mussarela, Patinho moído, massa, presunto, orégano" },
-    { "image": "feijoada", "nome": "Feijoada", "valor": 19.90, "unidade": "450g", "descricao": "Feijão Preto, Calabresa, Carne Seca, Couve, Arroz Branco" },
-    { "image": "carneseca", "nome": "Escondidinho de Carne Seca", "valor": 19.90, "unidade": "450g", "descricao": "Carne Seca desfiada, Aipim, Molho Branco" },
-    { "image": "marmitafit", "nome": "Combinadinho de Frango", "valor": 19.90, "unidade": "400g", "descricao": "Peito de Frango com molho, Legumes ao vapor, Arroz Branco" },
+    { "image": "lasanha", "nome": "Lasanha a Bolonhesa", "valor": 19.90, "unidade": "400g", "descricao": "Mussarela, Patinho moído, Massa, Presunto, Orégano" },
+    { "image": "feijoada", "nome": "Feijoada", "valor": 19.90, "unidade": "400g", "descricao": "Feijão Preto, Calabresa, Carne Seca, Couve, Arroz Branco" },
+    { "image": "carneseca", "nome": "Escondidinho de Carne Seca", "valor": 19.90, "unidade": "400g", "descricao": "Carne Seca desfiada, Aipim, Queijo, Molho Branco" },
+    { "image": "marmitafit", "nome": "Marmita Gourmet Fitness", "valor": 19.90, "unidade": "400g", "descricao": "Arroz Vermelho, Peito de Frango ao Molho de Tomate Fresco, Legumes ao vapor" },
   ],
 
   'sucos': [
     { "image": "sucoles2", "nome": "Suco de Uva Integral", "valor": 8.00, "unidade": "taça - 250 ml", "descricao": "Uva Roxa Macerada (sem água, sem açúcar)" },
     { "image": "sucoles", "nome": "Sucolé de Uva Integral", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Uva Roxa Macerada Congelada (sem água, sem açúcar)" },
     { "image": "sucolecoco", "nome": "Sucolé de Côco", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Leite extraído do côco, Mel" },
-    { "image": "sucoles", "nome": "Sucolé de Açaí", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Polpa de Açaí, Mel, Banana" },
+    { "image": "sucoleacai", "nome": "Sucolé de Açaí", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Açaí, Mel, Banana" },
   ],
 
   'cafes': [
-    { "image": "cafe", "nome": "Suco de Uva Integral", "valor": 8.00, "unidade": "taça - 250 ml", "descricao": "Uva Roxa Macerada (sem água, sem açúcar)" },
-    { "image": "cafe", "nome": "Sucolé de Uva Integral", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Uva Roxa Macerada Congelada (sem água, sem açúcar)" },
-    { "image": "cafe", "nome": "Sucolé de Açaí", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Polpa de Açaí, Mel, Banana" },
+    { "image": "cafe", "nome": "Café coado", "valor": 4.00, "unidade": "xícara - 150 ml", "descricao": "Café extra-forte coado na hora" },
+    { "image": "misto", "nome": "Misto Quente", "valor": 7.00, "unidade": "100g", "descricao": "Pão artesanal, Queijo, Presunto" },
+    { "image": "misto", "nome": "Queijo Quente", "valor": 7.00, "unidade": "100g", "descricao": "Pão artesanal, Queijo duplo" },
+    { "image": "misto", "nome": "Baurú", "valor": 7.00, "unidade": "100g", "descricao": "Pão artesanal, Queijo, Tomate e Orégano" },
   ],
 
   'bebidas': [

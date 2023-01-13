@@ -32,7 +32,7 @@ function MenuSlides(props) {
   let slides = [];
   for (let item in photos) {
     const imgname = 'photos/' + props.currentMenu + '/' + photos[item].image + '.jpg';
-    slides.push(<img src={imgname} alt={photos[item].nome} />);
+    slides.push(<img src={imgname} alt={photos[item].nome} onClick={() => props.setCurrentMenu(props.currentMenu)}/>);
   }
 
   return (<div>
