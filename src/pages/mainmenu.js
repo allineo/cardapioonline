@@ -6,6 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import '../css/swiper.css'
+import '../css/list.css';
 import { cardapio } from './cardapiojson';
 
 
@@ -32,7 +33,10 @@ function MenuSlides(props) {
   let slides = [];
   for (let item in photos) {
     const imgname = 'photos/' + props.currentMenu + '/' + photos[item].image + '.jpg';
-    slides.push(<img src={imgname} alt={photos[item].nome} onClick={() => props.setCurrentMenu(props.currentMenu)}/>);
+    slides.push(<div>
+      <img src={imgname} alt={photos[item].nome} onClick={() => props.setCurrentMenu(props.currentMenu)} />
+      <div className="list-item"><center>{photos[item].nome}</center></div>
+    </div>);
   }
 
   return (<div>
@@ -55,7 +59,7 @@ function MenuSlides(props) {
         </SwiperSlide>
       ))}
     </Swiper>
-    <br/>
+    <br />
   </div>);
 }
 
