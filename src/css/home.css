@@ -1,5 +1,5 @@
 .home-content {
-    background-color: #282c34;
+    background-color: #635a49;
     min-height: 100vh;
 }
 
@@ -10,4 +10,5 @@
 .home-title {
     color: white;
     font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }

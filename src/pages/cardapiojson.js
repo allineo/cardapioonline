@@ -33,7 +33,7 @@ export const cardapio = {
   ],
 
   "cafes": [
-    { "image": "cafe", "nome": "Café coado", "valor": 4.00, "unidade": "xícara - 150 ml", "descricao": "Café extra-forte coado na hora" },
+    { "image": "cafe", "nome": "Café Coado", "valor": 4.00, "unidade": "xícara - 150 ml", "descricao": "Café extra-forte coado na hora" },
     { "image": "misto", "nome": "Misto Quente", "valor": 7.00, "unidade": "100g", "descricao": "Pão artesanal, Queijo, Presunto" },
     { "image": "bauru", "nome": "Baurú", "valor": 7.00, "unidade": "100g", "descricao": "Pão artesanal, Queijo, Tomate e Orégano" },
     { "image": "queijoquente", "nome": "Queijo Quente", "valor": 7.00, "unidade": "100g", "descricao": "Pão artesanal, Queijo duplo" },
@@ -41,13 +41,14 @@ export const cardapio = {
   ],
 
   "bebidas": [
-    { "image": "heineken", "nome": "Cerveja Heineken", "valor": 10.00, "unidade": "latão - 450 ml", "descricao": "" },
-    { "image": "brahma", "nome": "Cerveja Brahma", "valor": 9.00, "unidade": "latão - 450 ml", "descricao": "" },
-    { "image": "vinhos", "nome": "Vinho Tinto", "valor": 55.00, "unidade": "garrafa", "descricao": "Cabernet Sauvignon, Chile, Concha Y Toro" },
+    { "image": "heineken", "nome": "Cerveja Heineken", "valor": 10.00, "unidade": "latão - 470 ml", "descricao": "" },
+    { "image": "brahma", "nome": "Cerveja Brahma", "valor": 9.00, "unidade": "latão - 470 ml", "descricao": "" },
+    /*{ "image": "vinhos", "nome": "Vinho Tinto", "valor": 55.00, "unidade": "garrafa", "descricao": "Cabernet Sauvignon, Chile, Concha Y Toro" },
     { "image": "vinhos", "nome": "Vinho Branco", "valor": 55.00, "unidade": "garrafa", "descricao": "Sauvignon Blanc, Chile, Concha Y Toro" },
-    { "image": "coca", "nome": "Coca-Cola", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Coca-Cola normal (com açúcar)" },
+    */{ "image": "coca", "nome": "Coca-Cola", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Coca-Cola normal (com açúcar)" },
     { "image": "cocadiet", "nome": "Coca-Cola Sem Açúcar", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Coca-Cola diet (SEM açúcar)" },
-    { "image": "guarana", "nome": "Guaraná Antártica", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "" },
+    { "image": "guarana", "nome": "Guaraná Antártica", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Guaraná normal (com açúcar)" },
+    { "image": "guaranadiet", "nome": "Guaraná Antártica Sem Açúcar", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Guaraná diet (SEM açúcar)" },
     { "image": "aguacomgas", "nome": "Água com gás", "valor": 5.00, "unidade": "500 ml", "descricao": "Minalba" },
     { "image": "aguasemgas", "nome": "Água sem gás", "valor": 4.00, "unidade": "500 ml", "descricao": "Minalba" }
   ]

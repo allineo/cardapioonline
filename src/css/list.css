@@ -1,7 +1,13 @@
 .list-title {
     color: orange;
     font-size: 32px;
-  }
+}
+
+.list-icons {
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+}
 
 .list {
     display: grid;
@@ -12,7 +18,7 @@
 
 .list-item {
     /*height: 200px;*/
-    color: white
+    color: white;
 }
 
 .list-description {
@@ -24,4 +30,11 @@
     width: 100%;
     /*height: 100%;*/
     object-fit: cover;
+    background: radial-gradient(circle at 20% 40%, transparent , #fff 50%);
+
+}
+
+.menuleft {
+    flex: none !important;
+    width: auto !important;
 }

@@ -12,17 +12,12 @@ function MenuPages(props) {
     return (<MainMenu currentMenu={props.currentMenu} setCurrentMenu={props.setCurrentMenu} />);
 
   } else {
-    const iconTitle = 'icons/' + props.currentMenu + 'icon.jpg';
     return (<div>
       <Row>
-        <Col xs lg="2">
+        <Col xs lg="2" className="menuleft">
           <MenuLeftPage currentMenu={props.currentMenu} setCurrentMenu={props.setCurrentMenu} />
         </Col>
         <Col xs lg="10">
-          <div className="swiper-title" >
-            <img src={iconTitle} alt={props.title} width="40" /> &nbsp;
-            {props.title} {props.currentMenu}
-          </div>
           <br />
           <PageContent currentMenu={props.currentMenu} setCurrentMenu={props.setCurrentMenu} />
         </Col>
@@ -40,8 +35,9 @@ function PageContent(props) {
         const msgpedido = 'https://api.whatsapp.com/send?phone=5521981351099&text=' +
           'Adicionar ao meu pedido:\n\n  *' + item.nome + '*';
         return (<div>
-          <div className="list-item">
-            <img src={imgname} alt={item.nome} onClick={() => props.setCurrentMenu(props.currentMenu)} />
+          <div className="list-item" height='100px'>
+            <img src={imgname} alt={item.nome} //height='100px'
+            onClick={() => props.setCurrentMenu(props.currentMenu)}/>
           </div>
           <div className="list-item">
             <b>{item.nome}</b>

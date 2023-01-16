@@ -1,15 +1,49 @@
 
+import '../css/list.css';
+
+import { IconContext } from "react-icons";
+import { TbDiscount2 } from 'react-icons/tb';
+import { GiFullPizza } from 'react-icons/gi';
+import { BsInboxes } from 'react-icons/bs';
+import { FaWineGlassAlt, FaCoffee } from 'react-icons/fa';
+import { TiBeer } from 'react-icons/ti';
+
 function MenuLeftPage(props) {
-    return (
-      <div>
-        <img src='icons/combosicon.jpg' alt="Combos" width="100" onClick={() => props.setCurrentMenu('combos')} /><br />
-        <img src='icons/pizzasicon.jpg' alt="Pizzas" width="100" onClick={() => props.setCurrentMenu('pizzas')} /><br />
-        <img src='icons/marmitasicon.jpg' alt="Marmitas" width="100" onClick={() => props.setCurrentMenu('marmitas')} /><br />
-        <img src='icons/sucosicon.jpg' alt="Sucos" width="100" onClick={() => props.setCurrentMenu('sucos')} /><br />
-        <img src='icons/cafesicon.jpg' alt="Café da Manhã" width="100" onClick={() => props.setCurrentMenu('cafes')} /><br />
-        <img src='icons/bebidasicon.jpg' alt="Bebidas" width="100" onClick={() => props.setCurrentMenu('bebidas')} /><br />
-      </div>
-    );
+  return (
+    <div>
+      <IconContext.Provider value={{ size: "50px" }}>
+        <div className="list-icons" onClick={() => props.setCurrentMenu('combos')} >
+          <TbDiscount2 /><br />
+          <b>Combos</b>
+        </div>
+        <br />
+        <div className="list-icons" onClick={() => props.setCurrentMenu('pizzas')} >
+          <GiFullPizza /><br />
+          <b>Pizzas</b>
+        </div>
+        <br />
+        <div className="list-icons" onClick={() => props.setCurrentMenu('marmitas')} >
+          <BsInboxes /><br />
+          <b>Marmitas</b>
+        </div>
+        <br />
+        <div className="list-icons" onClick={() => props.setCurrentMenu('sucos')} >
+          <FaWineGlassAlt /><br />
+          <b>Sucos</b>
+        </div>
+        <br />
+        <div className="list-icons" onClick={() => props.setCurrentMenu('cafes')} >
+          <FaCoffee /><br />
+          <b>Cafés</b>
+        </div>
+        <br />
+        <div className="list-icons" onClick={() => props.setCurrentMenu('bebidas')} >
+          <TiBeer /><br />
+          <b>Bebidas</b>
+        </div>
+      </IconContext.Provider>
+    </div>
+  );
 }
 
 export default MenuLeftPage;

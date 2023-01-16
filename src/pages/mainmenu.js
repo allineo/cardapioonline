@@ -41,7 +41,6 @@ function MenuSlides(props) {
 
   return (<div>
     <div className="swiper-title" onClick={() => props.setCurrentMenu(props.currentMenu)}>
-      <img src={iconTitle} alt={props.title} width="40" /> &nbsp;
       {props.title}
     </div>
 
