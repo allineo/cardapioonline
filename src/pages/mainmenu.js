@@ -8,6 +8,7 @@ import 'swiper/css/navigation';
 import '../css/swiper.css'
 import '../css/list.css';
 import { cardapio } from './cardapiojson';
+import { width } from 'dom7';
 
 
 function MainMenu(props) {
@@ -46,6 +47,18 @@ function MenuSlides(props) {
 
     <Swiper
       onSwiper={setSwiperRef}
+      breakpoints={{
+        240: {
+          slidesPerView: 1,
+        },
+        360: {
+          slidesPerView: 2,
+        },
+        640: {
+          slidesPerView: 3,
+        },
+
+      }}
       slidesPerView={3}
       centeredSlides={false}
       spaceBetween={10}

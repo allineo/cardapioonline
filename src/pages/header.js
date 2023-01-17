@@ -16,13 +16,14 @@ function Header(props) {
                 <Col xs lg="7">
                     <h1 className="home-title">
                         Chefe Ricardo<br />
-                        Congelados Delivery &nbsp; &nbsp; &nbsp; &nbsp;
-                        <IconContext.Provider value={{ color: "orange" }}>
-                            <a href={urlzap} target='_blank'><FaWhatsapp /></a> &nbsp; &nbsp;
-                            <a href={urlinsta} target='_blank'><FaInstagram /></a>
-                        </IconContext.Provider>
-
+                        Congelados Delivery
                     </h1>
+                </Col>
+                <Col lg={{ order: 'last' }}>
+                    <IconContext.Provider value={{ className: "home-icons"}}>
+                        <a href={urlzap} target='_blank'><FaWhatsapp /></a>
+                        <a href={urlinsta} target='_blank'><FaInstagram /></a>
+                    </IconContext.Provider>
                 </Col>
             </Row>
         </div>

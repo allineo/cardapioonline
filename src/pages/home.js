@@ -15,7 +15,7 @@ function HomePage() {
     <div className="home-content">
       <Container>
         <Row className="justify-content-md-center">
-          <Col xs lg="8">
+          <Col xs md="10" lg="8">
             <Header currentMenu={currentMenu} setCurrentMenu={setCurrentMenu} />
             <MenuPages currentMenu={currentMenu} setCurrentMenu={setCurrentMenu} />
           </Col>

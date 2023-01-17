@@ -46,3 +46,27 @@
   .swiper-button-next::after, .swiper-button-prev::after{
     font-size: 24px;
   }
+
+  .swiper-wrapper{
+    max-height: 200px;
+    /* border: 1px solid black; */
+  }
+
+  .swiper-content-info{
+    border: 1px solid red;
+  }
+
+  .swiper-content-info img {
+    width: 80%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .swiper-slide img {
+      height: 150px;
+    }
+
+    .swiper-title {
+      font-size: 18px;
+    }
+    
+  }

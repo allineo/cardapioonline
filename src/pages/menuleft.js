@@ -13,33 +13,33 @@ function MenuLeftPage(props) {
     <div>
       <IconContext.Provider value={{ size: "50px" }}>
         <div className="list-icons" onClick={() => props.setCurrentMenu('combos')} >
-          <TbDiscount2 /><br />
-          <b>Combos</b>
+          <TbDiscount2 />
+          <div className='list-icons-title'>Combos</div>
         </div>
-        <br />
+        
         <div className="list-icons" onClick={() => props.setCurrentMenu('pizzas')} >
-          <GiFullPizza /><br />
-          <b>Pizzas</b>
+          <GiFullPizza />
+          <div className='list-icons-title'>Pizzas</div>
         </div>
-        <br />
+        
         <div className="list-icons" onClick={() => props.setCurrentMenu('marmitas')} >
-          <BsInboxes /><br />
-          <b>Marmitas</b>
+          <BsInboxes />
+          <div className='list-icons-title'>Marmitas</div>
         </div>
-        <br />
+        
         <div className="list-icons" onClick={() => props.setCurrentMenu('sucos')} >
-          <FaWineGlassAlt /><br />
-          <b>Sucos</b>
+          <FaWineGlassAlt />
+          <div className='list-icons-title'>Sucos</div>
         </div>
-        <br />
+        
         <div className="list-icons" onClick={() => props.setCurrentMenu('cafes')} >
-          <FaCoffee /><br />
-          <b>Cafés</b>
+          <FaCoffee />
+          <div className='list-icons-title'>Cafés</div>
         </div>
-        <br />
+        
         <div className="list-icons" onClick={() => props.setCurrentMenu('bebidas')} >
-          <TiBeer /><br />
-          <b>Bebidas</b>
+          <TiBeer />
+          <div className='list-icons-title'>Bebidas</div>
         </div>
       </IconContext.Provider>
     </div>
