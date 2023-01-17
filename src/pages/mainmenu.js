@@ -24,8 +24,6 @@ function MainMenu(props) {
 
 
 function MenuSlides(props) {
-  const iconTitle = 'icons/' + props.currentMenu + 'icon.jpg';
-
   SwiperCore.use([Virtual, Navigation, Pagination]);
   const [swiperRef, setSwiperRef] = useState(null);
 
@@ -35,7 +33,7 @@ function MenuSlides(props) {
     const imgname = 'photos/' + props.currentMenu + '/' + photos[item].image + '.jpg';
     slides.push(<div>
       <img src={imgname} alt={photos[item].nome} onClick={() => props.setCurrentMenu(props.currentMenu)} />
-      <div className="list-item"><center>{photos[item].nome}</center></div>
+      <div className="swiper-item"><center>{photos[item].nome}</center></div>
     </div>);
   }
 
@@ -46,6 +44,18 @@ function MenuSlides(props) {
 
     <Swiper
       onSwiper={setSwiperRef}
+      breakpoints={{
+        240: {
+          slidesPerView: 1,
+        },
+        360: {
+          slidesPerView: 3,
+        },
+        640: {
+          slidesPerView: 3,
+        },
+
+      }}
       slidesPerView={3}
       centeredSlides={false}
       spaceBetween={10}

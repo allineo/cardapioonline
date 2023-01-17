@@ -33,22 +33,25 @@ function PageContent(props) {
       {itemList.map(item => {
         const imgname = 'photos/' + props.currentMenu + '/' + item.image + '.jpg';
         const msgpedido = 'https://api.whatsapp.com/send?phone=5521981351099&text=' +
-          'Adicionar ao meu pedido:\n\n  *' + item.nome + '*';
+          'Gostaria de pedir:\n%0A   *' + item.nome + '*';
         return (<div>
+          <center>
           <div className="list-item" height='100px'>
             <img src={imgname} alt={item.nome} //height='100px'
-            onClick={() => props.setCurrentMenu(props.currentMenu)}/>
+              onClick={() => props.setCurrentMenu(props.currentMenu)} />
           </div>
           <div className="list-item">
             <b>{item.nome}</b>
-            <div className="list-description">
-              {item.descricao}
-            </div>
-            <b>R$ {item.valor}</b>
-            <div className="list-description">({item.unidade})</div>
           </div>
-          <center><a href={msgpedido} target='_blank'><button>Pedir</button></a></center>
+          <div className="list-description">
+            {item.descricao}
+          </div>
+          <div className="list-value"><b>R$ {item.valor}</b></div>
+          <div className="list-description">({item.unidade})</div>
+          <br />
+          <a href={msgpedido} target='_blank'><button className='btn btn-dark'>Pedir</button></a>
           <br /><br />
+          </center>
         </div>)
       })}
     </div>

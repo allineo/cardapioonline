@@ -13,19 +13,22 @@ function Header(props) {
                 <Col xs lg="2" className="align-center menuleft">
                     <img src='chefericardo.png' className="App-logo" alt="Logo Chefe Ricardo" />
                 </Col>
-                <Col xs lg="7">
-                    <h1 className="home-title">
-                        Chefe Ricardo<br />
-                        Congelados Delivery &nbsp; &nbsp; &nbsp; &nbsp;
-                        <IconContext.Provider value={{ color: "orange" }}>
-                            <a href={urlzap} target='_blank'><FaWhatsapp /></a> &nbsp; &nbsp;
-                            <a href={urlinsta} target='_blank'><FaInstagram /></a>
-                        </IconContext.Provider>
-
-                    </h1>
+                <Col xs lg="10">
+                    <center>
+                        <h1 className="home-title">
+                            Chefe Ricardo</h1>
+                        <div className="home-subtitle">congelados delivery
+                        </div>
+                        <div className="home-title">
+                            <IconContext.Provider value={{ color: "orange" }} >
+                                <a href={urlzap} target='_blank'><FaWhatsapp /></a> &nbsp;
+                                <a href={urlinsta} target='_blank'><FaInstagram /></a>
+                            </IconContext.Provider>
+                        </div>
+                    </center>
                 </Col>
             </Row>
-        </div>
+        </div >
     );
 }
 

@@ -11,6 +11,7 @@ import { TiBeer } from 'react-icons/ti';
 function MenuLeftPage(props) {
   return (
     <div>
+      <br />
       <IconContext.Provider value={{ size: "50px" }}>
         <div className="list-icons" onClick={() => props.setCurrentMenu('combos')} >
           <TbDiscount2 /><br />
