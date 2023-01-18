@@ -2,7 +2,6 @@
 import '../css/list.css';
 
 import { IconContext } from "react-icons";
-import { TbDiscount2 } from 'react-icons/tb';
 import { GiFullPizza } from 'react-icons/gi';
 import { BsInboxes } from 'react-icons/bs';
 import { FaWineGlassAlt, FaCoffee } from 'react-icons/fa';
@@ -13,11 +12,6 @@ function MenuLeftPage(props) {
     <div>
       <br />
       <IconContext.Provider value={{ size: "50px" }}>
-        <div className="list-icons" onClick={() => props.setCurrentMenu('combos')} >
-          <TbDiscount2 /><br />
-          <b>Combos</b>
-        </div>
-        <br />
         <div className="list-icons" onClick={() => props.setCurrentMenu('pizzas')} >
           <GiFullPizza /><br />
           <b>Pizzas</b>

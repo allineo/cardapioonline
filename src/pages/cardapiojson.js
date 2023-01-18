@@ -1,21 +1,12 @@
 
 export const cardapio = {
-  "combos": [
-    { "image": "marmitacombo", "nome": "Pizza de Calabresa", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Calabresa, Mussarela" },
-    { "image": "sucoles2", "nome": "Pizza de Frango/Catupiry", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Frango, Catupiry, Mussarela" },
-    { "image": "pizza", "nome": "Pizza Mista", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Lombo, Provolone, Calabresa, Salame, Mussarela" },
-    { "image": "cafe", "nome": "Pizza 4 Queijos", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Catupiry, Cheddar, Prato, Mussarela" },
-    { "image": "marmitacombo", "nome": "Pizza Tipo Portuguesa", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Calabresa, Cebola, Milho, Ovo, Mussarela" },
-    { "image": "pizza", "nome": "Pizza de Mussarela", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Mussarela" }
-  ],
-
   "pizzas": [
-    { "image": "pizza", "nome": "Pizza de Calabresa", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Calabresa, Mussarela" },
-    { "image": "pizza", "nome": "Pizza de Frango/Catupiry", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Frango, Catupiry, Mussarela" },
-    { "image": "pizza", "nome": "Pizza Mista", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Lombo, Provolone, Calabresa, Salame, Mussarela" },
-    { "image": "pizza", "nome": "Pizza 4 Queijos", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Catupiry, Cheddar, Prato, Mussarela" },
-    { "image": "pizza", "nome": "Pizza Tipo Portuguesa", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Calabresa, Cebola, Milho, Ovo, Mussarela" },
-    { "image": "pizza", "nome": "Pizza de Mussarela", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Mussarela" }
+    { "image": "calabresa", "nome": "Pizza Frango/Catupiry", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Frango, Catupiry, Mussarela" },
+    { "image": "calabresa", "nome": "Pizza de Calabresa", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Calabresa, Mussarela" },
+    { "image": "quatroqueijos", "nome": "Calabresa com Cebola", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Calabresa, Cebola, Milho, Ovo, Mussarela" },
+    { "image": "quatroqueijos", "nome": "Pizza de Bacon", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Bacon, Mussarela" },
+    { "image": "quatroqueijos", "nome": "Pizza 4 Queijos", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Catupiry, Cheddar, Prato, Mussarela" },
+    { "image": "marguerita", "nome": "Pizza Mozzarella", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Mussarela" }
   ],
 
   "marmitas": [

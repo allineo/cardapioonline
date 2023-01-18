@@ -13,11 +13,10 @@ import { cardapio } from './cardapiojson';
 function MainMenu(props) {
   return (
     <div>
-      <MenuSlides title='Combos e Promoções' currentMenu='combos' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='Pizzas' currentMenu='pizzas' setCurrentMenu={props.setCurrentMenu} />
-      <MenuSlides title='Marmitas e Quentinhas' currentMenu='marmitas' setCurrentMenu={props.setCurrentMenu} />
-      <MenuSlides title='Sucos e Sucolés' currentMenu='sucos' setCurrentMenu={props.setCurrentMenu} />
-      <MenuSlides title='Café da Manhã e da Tarde' currentMenu='cafes' setCurrentMenu={props.setCurrentMenu} />
+      <MenuSlides title='Marmitas' currentMenu='marmitas' setCurrentMenu={props.setCurrentMenu} />
+      <MenuSlides title='Sucos' currentMenu='sucos' setCurrentMenu={props.setCurrentMenu} />
+      <MenuSlides title='Cafés' currentMenu='cafes' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='Bebidas' currentMenu='bebidas' setCurrentMenu={props.setCurrentMenu} />
     </div>);
 }
