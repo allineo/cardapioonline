@@ -1,12 +1,11 @@
 
 export const cardapio = {
   "pizzas": [
-    { "image": "calabresa", "nome": "Pizza Frango/Catupiry", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Frango, Catupiry, Mussarela" },
-    { "image": "calabresa", "nome": "Pizza de Calabresa", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Calabresa, Mussarela" },
-    { "image": "quatroqueijos", "nome": "Calabresa com Cebola", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Calabresa, Cebola, Milho, Ovo, Mussarela" },
-    { "image": "quatroqueijos", "nome": "Pizza de Bacon", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Bacon, Mussarela" },
-    { "image": "quatroqueijos", "nome": "Pizza 4 Queijos", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Catupiry, Cheddar, Prato, Mussarela" },
-    { "image": "marguerita", "nome": "Pizza Mozzarella", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Mussarela" }
+    { "image": "frangocatupiry", "nome": "Frango/Catupiry", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Frango, Catupiry, Mussarela" },
+    { "image": "calabresa", "nome": "Calabresa", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Calabresa, Mussarela" },
+    { "image": "quatroqueijos", "nome": "Quatro Queijos", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Catupiry, Cheddar, Prato, Mussarela" },
+    { "image": "marguerita", "nome": "Mozzarella", "valor": 19.90, "unidade": "30cm - 6 fatias", "descricao": "Mussarela" },
+    { "image": "chocolate", "nome": "Fatias de Pizza de Chocolate", "valor": 5.90, "unidade": "1 fatia", "descricao": "Chocolate Preto ou Branco" }
   ],
 
   "marmitas": [
@@ -17,10 +16,11 @@ export const cardapio = {
   ],
 
   "sucos": [
-    { "image": "sucoles2", "nome": "Suco de Uva Integral", "valor": 8.00, "unidade": "taça - 250 ml", "descricao": "Uva Roxa Macerada (sem água, sem açúcar)" },
-    { "image": "sucoles", "nome": "Sucolé de Uva Integral", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Uva Roxa Macerada Congelada (sem água, sem açúcar)" },
+    { "image": "sucouva", "nome": "Suco de Uva Integral", "valor": 8.00, "unidade": "taça - 300 ml", "descricao": "Uva Roxa Macerada (sem água, sem açúcar)" },
     { "image": "sucolecoco", "nome": "Sucolé de Côco", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Leite extraído do côco, Mel" },
-    { "image": "sucoleacai", "nome": "Sucolé de Açaí", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Açaí, Mel, Banana" }
+    { "image": "sucoleacai", "nome": "Sucolé de Açaí", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Açaí, Mel, Banana" },
+    { "image": "sucolemorango", "nome": "Sucolé de Morango", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Morango Integral Macerado, Mel" }
+    { "image": "sucoleuva", "nome": "Sucolé de Uva", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Suco de Uva Roxa Integral Macerado" }
   ],
 
   "cafes": [
@@ -40,7 +40,6 @@ export const cardapio = {
     { "image": "cocadiet", "nome": "Coca-Cola Sem Açúcar", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Coca-Cola diet (SEM açúcar)" },
     { "image": "guarana", "nome": "Guaraná Antártica", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Guaraná normal (com açúcar)" },
     { "image": "guaranadiet", "nome": "Guaraná Antártica Sem Açúcar", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Guaraná diet (SEM açúcar)" },
-    { "image": "aguacomgas", "nome": "Água com gás", "valor": 5.00, "unidade": "500 ml", "descricao": "Minalba" },
     { "image": "aguasemgas", "nome": "Água sem gás", "valor": 4.00, "unidade": "500 ml", "descricao": "Minalba" }
   ]
 }
