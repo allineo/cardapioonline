@@ -31,7 +31,7 @@ function MenuSlides(props) {
   for (let item in photos) {
     const imgname = 'photos/' + props.currentMenu + '/' + photos[item].image + '.jpg';
     slides.push(<div>
-      <img src={imgname} alt={photos[item].nome} onClick={() => props.setCurrentMenu(props.currentMenu)} />
+      <img src={imgname} alt={photos[item].nome} onClick={() => props.setCurrentMenu('item ' + props.currentMenu + ' ' + photos[item].image)} />
       <div className="swiper-item"><center>{photos[item].nome}</center></div>
     </div>);
   }

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: black-gumners;
+    src: url("black-gumners.otf") format("opentype");
+}
+
+
+.item-item {
+    color: white;
+    font-weight: bold;
+    font-family: 'black-gumners';
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.item-description {
+    color: white;
+    font-size: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.item-value {
+    color: white;
+    font-size: 20px;
+}
+
+.item-item img {
+   /* width: 100%; */
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 25%;
+    background: radial-gradient(circle at 20% 40%, transparent, #fff 50%);
+}
+
+.item-text {
+    margin: 16px 0;
+    min-height: 120px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .item-item img {
+        height: 220px;
+    }
+}
