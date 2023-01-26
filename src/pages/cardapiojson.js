@@ -18,9 +18,11 @@ export const cardapio = {
 
   "sucos": [
     { "image": "sucouva", "nome": "Suco de Uva Integral", "valor": 8.00, "unidade": "taça - 300 ml", "descricao": "Uva Roxa Macerada (sem água, sem açúcar)" },
+    { "image": "sucomanga", "nome": "Suco de Manga Integral", "valor": 8.00, "unidade": "taça - 300 ml", "descricao": "Manga Macerada (sem água, sem açúcar)" },
     { "image": "sucolecoco", "nome": "Sucolé de Côco", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Leite extraído do côco, Mel" },
     { "image": "sucoleacai", "nome": "Sucolé de Açaí", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Açaí, Mel, Banana" },
     { "image": "sucoledetox", "nome": "Sucolé Detox", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Gengibre, Limão, Couve, Uva verde Macerada" },
+    { "image": "sucolemanga", "nome": "Sucolé de Manga", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Manga Integral Macerada" },
     { "image": "sucolemorango", "nome": "Sucolé de Morango", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Morango Integral Macerado, Mel" },
     { "image": "sucoleuva", "nome": "Sucolé de Uva", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Suco de Uva Roxa Integral Macerado" }
   ],
