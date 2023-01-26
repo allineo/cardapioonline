@@ -12,7 +12,8 @@ export const cardapio = {
     { "image": "lasanha", "nome": "Lasanha a Bolonhesa", "valor": 19.90, "unidade": "400g", "descricao": "Mussarela, Patinho moído, Massa, Presunto, Orégano" },
     { "image": "feijoada", "nome": "Feijoada", "valor": 19.90, "unidade": "400g", "descricao": "Feijão Preto, Calabresa, Carne Seca, Couve, Arroz Branco" },
     { "image": "carneseca", "nome": "Escondidinho de Carne Seca", "valor": 19.90, "unidade": "400g", "descricao": "Carne Seca desfiada, Aipim, Queijo, Molho Branco" },
-    { "image": "marmitafit", "nome": "Marmita Gourmet Fitness", "valor": 19.90, "unidade": "400g", "descricao": "Arroz Vermelho, Peito de Frango ao Molho de Tomate Fresco, Legumes ao vapor" }
+    { "image": "marmitafitfrango", "nome": "Marmita Gourmet Fitness de Frango", "valor": 19.90, "unidade": "400g", "descricao": "Arroz Vermelho, Peito de Frango ao Molho de Tomate Fresco e Açafrâo da Terra, Legumes ao vapor" },
+    { "image": "marmitafitcarne", "nome": "Marmita Gourmet Fitness de Carne", "valor": 19.90, "unidade": "400g", "descricao": "Arroz Basmati com Lentilhas, Picadinho de Carne ao Molho Madeira, Legumes ao vapor" }
   ],
 
   "sucos": [
@@ -35,9 +36,8 @@ export const cardapio = {
   "bebidas": [
     { "image": "heineken", "nome": "Cerveja Heineken", "valor": 10.00, "unidade": "latão - 470 ml", "descricao": "" },
     { "image": "brahma", "nome": "Cerveja Brahma", "valor": 9.00, "unidade": "latão - 470 ml", "descricao": "" },
-    /*{ "image": "vinhos", "nome": "Vinho Tinto", "valor": 55.00, "unidade": "garrafa", "descricao": "Cabernet Sauvignon, Chile, Concha Y Toro" },
-    { "image": "vinhos", "nome": "Vinho Branco", "valor": 55.00, "unidade": "garrafa", "descricao": "Sauvignon Blanc, Chile, Concha Y Toro" },
-    */{ "image": "coca", "nome": "Coca-Cola", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Coca-Cola normal (com açúcar)" },
+    { "image": "vinhotinto", "nome": "Vinho Tinto ou Branco", "valor": 55.00, "unidade": "garrafa", "descricao": "Cabernet Sauvignon, Chile, Concha Y Toro" },
+    { "image": "coca", "nome": "Coca-Cola", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Coca-Cola normal (com açúcar)" },
     { "image": "cocadiet", "nome": "Coca-Cola Sem Açúcar", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Coca-Cola diet (SEM açúcar)" },
     { "image": "guarana", "nome": "Guaraná Antártica", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Guaraná normal (com açúcar)" },
     { "image": "guaranadiet", "nome": "Guaraná Antártica Sem Açúcar", "valor": 6.00, "unidade": "lata - 300 ml", "descricao": "Guaraná diet (SEM açúcar)" },
