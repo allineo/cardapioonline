@@ -28,7 +28,7 @@ function ItemPage(props) {
           <div className="item-value"><b>R$ {item.valor}</b></div>
           <div className="item-description">({item.unidade})</div>
           <br /><br />
-          <a href={msgpedido} target='_blank'><button className='btn btn-dark'>Pedir</button></a>
+          <a href={msgpedido} target='_blank' rel="noreferrer"><button className='btn btn-dark'>Pedir</button></a>
           <br /><br />
         </center>
       </div>)

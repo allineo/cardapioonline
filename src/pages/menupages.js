@@ -58,7 +58,7 @@ function ListPage(props) {
             <div className="list-description">({item.unidade})</div>
           </center>
           <br />
-          <center> <a href={msgpedido} target='_blank'><button className='btn btn-dark'>Pedir</button></a></center>
+          <center> <a href={msgpedido} target='_blank' rel="noreferrer"><button className='btn btn-dark'>Pedir</button></a></center>
           <br /><br />
         </div>)
       })}

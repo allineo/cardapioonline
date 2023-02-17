@@ -8,7 +8,6 @@ import MenuPages from './menupages';
 
 
 function HomePage() {
-
   const [currentMenu, setCurrentMenu] = useState('mainmenu');
 
   return (

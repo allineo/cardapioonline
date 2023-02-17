@@ -1,4 +1,5 @@
-import React, { useRef, useState } from 'react';
+import { useState } from 'react';
+//import { useHistory } from "react-router-dom";
 import SwiperCore, { Virtual, Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -23,8 +24,10 @@ function MainMenu(props) {
 
 
 function MenuSlides(props) {
+  //const history = useHistory();
+
   SwiperCore.use([Virtual, Navigation, Pagination]);
-  const [swiperRef, setSwiperRef] = useState(null);
+  const [setSwiperRef] = useState(null);
 
   const photos = cardapio[props.currentMenu];
   let slides = [];
@@ -35,6 +38,7 @@ function MenuSlides(props) {
       <div className="swiper-item"><center>{photos[item].nome}</center></div>
     </div>);
   }
+  // onClick={() => history.push("/about", { from: "HomePage" })}
 
   return (<div>
     <div className="swiper-title" onClick={() => props.setCurrentMenu(props.currentMenu)}>

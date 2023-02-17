@@ -22,11 +22,11 @@ function Header(props) {
                             Chefe Ricardo</h1>
                         <div className="home-subtitle">congelados delivery
                         </div>
-                        <div className="home-title">
+                        <div className="home-icons">
                             <IconContext.Provider value={{ color: "orange" }} >
-                                <a href={urlzap} target='_blank'><FaWhatsapp /></a> &nbsp;
-                                <a href={urlinsta} target='_blank'><FaInstagram /></a> &nbsp;
-                                <a href={urlmaps} target='_blank'><FiMapPin /></a>
+                                <a href={urlzap} target='_blank' rel="noreferrer"><FaWhatsapp /></a> &nbsp;
+                                <a href={urlinsta} target='_blank' rel="noreferrer"><FaInstagram /></a> &nbsp;
+                                <a href={urlmaps} target='_blank' rel="noreferrer"><FiMapPin /></a>
                             </IconContext.Provider>
                         </div>
                     </center>

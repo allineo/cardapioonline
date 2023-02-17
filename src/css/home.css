@@ -23,28 +23,34 @@
     color: orange;
     font-size: 20px;
     font-family: 'black-gumners'
-    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif*/
+        /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif*/
 }
 
-.holder-section{
+.holder-section {
     margin-bottom: 32px;
 }
 
-.home-icons{
-    width: 50%;
-    font-size: 34px;
+.home-icons {
+    font-size: 35px;
     color: orange;
 }
 
+.App-logo {
+    height: 150px;
+    pointer-events: none;
+}
+
+
 @media only screen and (max-width: 480px) {
     .home-title {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .home-subtitle {
         font-size: 15px;
     }
 
-    .home-icons{
+    .home-icons {
+        font-size: 30px;
     }
 }
