@@ -25,10 +25,21 @@ export const cardapio = {
     { "image": "sucolecoco", "nome": "Sucolé de Côco", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Leite extraído do côco, Leite de Castanha de Cajú, Mel" },
     { "image": "sucoleacai", "nome": "Sucolé de Açaí", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Açaí, Mel, Banana" },
     { "image": "sucoledetox", "nome": "Sucolé Detox", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Gengibre, Limão, Couve, Uva verde Macerada" },
-    { "image": "sucolemanga", "nome": "Sucolé de Manga", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Manga Integral Macerada" },
     /*{ "image": "extratotomate", "nome": "Extrato de Tomate Italiano Integral", "valor": 5.00, "unidade": "saquinho - 150 ml", "descricao": "Tomate Italiano Integral Macerado" },*/
     { "image": "sucolemorango", "nome": "Sucolé de Morango", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Morango Integral Macerado, Mel" },
     { "image": "sucoleuva", "nome": "Sucolé de Uva", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Suco de Uva Roxa Integral Macerado" }
+  ],
+
+  "vegetariano": [
+    { "image": "panquecavegana", "nome": "Panqueca de Alho Poró", "valor": 23.90, "unidade": "400g", "descricao": "Massa de Panqueca, Molho Branco de Alho Poró e Cenoura, Molho de Tomate Fresco e Açafrâo da Terra, Queijo" },
+    { "image": "quatroqueijos", "nome": "Pizza Quatro Queijos", "valor": 24.90, "unidade": "30cm - 6 fatias", "descricao": "Catupiry, Cheddar, Prato, Mussarela" },
+    { "image": "sorvetecoco", "nome": "Sorvete de Côco com Ganache", "valor": 5.00, "unidade": "200 ml", "descricao": "Sorvete de Côco seco, Calda de Chocolate Ganache" },
+    { "image": "mussarela", "nome": "Pizza Mozzarella", "valor": 24.90, "unidade": "30cm - 6 fatias", "descricao": "Mussarela" },
+    { "image": "sucouva", "nome": "Suco de Uva Integral", "valor": 8.00, "unidade": "taça - 300 ml", "descricao": "Uva Roxa Macerada (sem água, sem açúcar)" },
+    { "image": "sucoledetox", "nome": "Sucolé Detox", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Gengibre, Limão, Couve, Uva verde Macerada" },
+    { "image": "sucolemanga", "nome": "Sucolé de Manga", "valor": 5.00, "unidade": "saquinho - 100 ml", "descricao": "Manga Integral Macerada Congelada" },
+    { "image": "chocolate", "nome": "Fatias de Pizza de Chocolate", "valor": 6.90, "unidade": "1 fatia", "descricao": "Chocolate Preto ou Branco" },
+    { "image": "vinhotinto", "nome": "Vinho Tinto ou Branco", "valor": 55.00, "unidade": "garrafa", "descricao": "Cabernet Sauvignon, Chile, Concha Y Toro" }
   ],
 
   "cafes": [

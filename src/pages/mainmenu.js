@@ -17,6 +17,7 @@ function MainMenu(props) {
       <MenuSlides title='Pizzas' currentMenu='pizzas' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='Marmitas' currentMenu='marmitas' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='Sucos' currentMenu='sucos' setCurrentMenu={props.setCurrentMenu} />
+      <MenuSlides title='Vegetariano' currentMenu='vegetariano' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='Cafés' currentMenu='cafes' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='Bebidas' currentMenu='bebidas' setCurrentMenu={props.setCurrentMenu} />
     </div>);
