@@ -5,6 +5,7 @@ import { IconContext } from "react-icons";
 import { GiFullPizza, GiTreeBranch, GiTomato } from 'react-icons/gi';
 import { BsInboxes } from 'react-icons/bs';
 import { FaWineGlassAlt, FaCoffee } from 'react-icons/fa';
+import { CiBadgeDollar } from 'react-icons/ci';
 import { TiBeer } from 'react-icons/ti';
 
 function MenuLeftPage(props) {
@@ -20,6 +21,11 @@ function MenuLeftPage(props) {
         <div className="list-icons" onClick={() => props.setCurrentMenu('marmitas')} >
           <BsInboxes /><br />
           <b>Marmitas</b>
+        </div>
+        <br />
+        <div className="list-icons" onClick={() => props.setCurrentMenu('promos')} >
+          <CiBadgeDollar /><br />
+          <b>PROMOS</b>
         </div>
         <br />
         <div className="list-icons" onClick={() => props.setCurrentMenu('sucos')} >
