@@ -4,7 +4,7 @@ import '../css/list.css';
 import { IconContext } from "react-icons";
 import { GiFullPizza, GiTreeBranch, GiTomato } from 'react-icons/gi';
 import { BsInboxes } from 'react-icons/bs';
-import { FaWineGlassAlt, FaCoffee } from 'react-icons/fa';
+import { FaIceCream, FaCoffee } from 'react-icons/fa';
 import { CiBadgeDollar } from 'react-icons/ci';
 import { TiBeer } from 'react-icons/ti';
 
@@ -28,9 +28,14 @@ function MenuLeftPage(props) {
           <b>PROMOS</b>
         </div>
         <br />
-        <div className="list-icons" onClick={() => props.setCurrentMenu('sucos')} >
-          <FaWineGlassAlt /><br />
-          <b>Sucos</b>
+        <div className="list-icons" onClick={() => props.setCurrentMenu('gelados')} >
+          <FaIceCream /><br />
+          <b>Gelados</b>
+        </div>
+        <br />
+        <div className="list-icons" onClick={() => props.setCurrentMenu('bebidas')} >
+          <TiBeer /><br />
+          <b>Bebidas</b>
         </div>
         <br />
         <div className="list-icons" onClick={() => props.setCurrentMenu('vegetariano')} >
@@ -41,11 +46,6 @@ function MenuLeftPage(props) {
         <div className="list-icons" onClick={() => props.setCurrentMenu('cafes')} >
           <FaCoffee /><br />
           <b>Cafés</b>
-        </div>
-        <br />
-        <div className="list-icons" onClick={() => props.setCurrentMenu('bebidas')} >
-          <TiBeer /><br />
-          <b>Bebidas</b>
         </div>
       </IconContext.Provider>
     </div>
