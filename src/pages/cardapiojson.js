@@ -6,7 +6,7 @@ export const cardapio = {
     { "image": "quatroqueijos", "nome": "Pizza Quatro Queijos", "valor": "23,90", "unidade": "30cm - 6 fatias", "descricao": "Catupiry, Cheddar, Prato, Mussarela" },
     { "image": "marguerita", "nome": "Pizza Marguerita", "valor": "23,90", "unidade": "30cm - 6 fatias", "descricao": "Mussarela, Tomate, Manjericão, Parmesão ralado" }, 
     { "image": "mussarela", "nome": "Pizza Mozzarella", "valor": "23,90", "unidade": "30cm - 6 fatias", "descricao": "Mussarela" },
-    { "image": "chocolate", "nome": "Fatias de Pizza de Chocolate", "valor": "6,90", "unidade": "1 fatia", "descricao": "Chocolate Preto ou Branco" }
+    { "image": "chocolate", "nome": "Fatia de Pizza de Chocolate", "valor": "6,90", "unidade": "1 fatia", "descricao": "Chocolate Ganache com Granulado" }
   ],
 
   "marmitas": [
@@ -15,8 +15,8 @@ export const cardapio = {
     { "image": "carneseca", "nome": "Escondidinho de Carne Seca", "valor": "23,90", "unidade": "400g", "descricao": "Carne Seca desfiada, Aipim, Queijo, Molho Branco" },
     { "image": "marmitafitfrango", "nome": "Marmita Gourmet Fitness de Frango", "valor": "23,90", "unidade": "400g", "descricao": "Arroz Vermelho, Peito de Frango ao Molho de Tomate Fresco e Açafrâo da Terra, Legumes ao vapor" },
     { "image": "quichecamarao", "nome": "Torta de Camarão (tipo Empadão)", "valor": "23,90", "unidade": "400g", "descricao": "Massa de Empadão, Recheio de Camarão, Cobertura de Queijo" },
-    { "image": "panquecavegana", "nome": "Panqueca de Alho Poró", "valor": "23,90", "unidade": "400g", "descricao": "Massa de Panqueca, Molho Branco de Alho Poró e Cenoura, Molho de Tomate Fresco e Açafrâo da Terra, Queijo" },
-    /* { "image": "marmitafitcarne", "nome": "Marmita Gourmet Fitness de Carne", "valor": "23,90", "unidade": "400g", "descricao": "Arroz Basmati com Lentilhas, Picadinho de Carne ao Molho Madeira, Legumes ao vapor" }*/
+    { "image": "panquecavegana", "nome": "Panqueca de Alho Poró", "valor": "23,90", "unidade": "400g", "descricao": "Massa de Panqueca, Molho Branco de Alho Poró e Cenoura, Molho de Tomate Fresco e Açafrâo da Terra, Queijo" }
+    //{ "image": "strogonofffilet", "nome": "Strogonoff de Filet Mignon", "valor": "23,90", "unidade": "400g", "descricao": "Strogonoff de Filet Mignon com Champignon, Arroz Branco e Batata Palha" }
   ],
 
   "promos": [
@@ -25,10 +25,11 @@ export const cardapio = {
   ],
 
   "gelados": [
-    { "image": "sorvetecoco", "nome": "Sorvete de Côco com Ganache", "valor": "5,00", "unidade": "200 ml", "descricao": "Sorvete de Côco Verde, Calda de Chocolate Ganache" },
+    { "image": "sorvetecoco", "nome": "Sorvete de Côco com Ganache", "valor": "6,00", "unidade": "200 ml", "descricao": "Sorvete Artesanal de Côco Verde com Calda de Chocolate Ganache" },
+    { "image": "sorvetecreme", "nome": "Sorvete de Creme com Calda de Manga", "valor": "6,00", "unidade": "200 ml", "descricao": "Sorvete Artesanal de Creme com Calda de Manga" },
+    { "image": "sorvetechocolate", "nome": "Sorvete de Chocolate com Calda de Café", "valor": "6,00", "unidade": "200 ml", "descricao": "Sorvete Artesanal de Chocolate com Calda de Café" },
     { "image": "sucoleuva", "nome": "Sucolé de Uva", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Suco de Uva Roxa Integral Macerado" },
     { "image": "sucoledetox", "nome": "Sucolé Detox", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Gengibre, Limão, Couve, Uva verde Macerada" },
-    /*{ "image": "extratotomate", "nome": "Extrato de Tomate Italiano Integral", "valor": "5,00", "unidade": "saquinho - 150 ml", "descricao": "Tomate Italiano Integral Macerado" },*/
     { "image": "sucolemorango", "nome": "Sucolé de Morango", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Morango Integral Macerado, Mel" },
     { "image": "sucolecoco", "nome": "Sucolé de Côco", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Leite extraído do côco verde, Leite condensado" },
     { "image": "sucoleacai", "nome": "Sucolé de Açaí", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Açaí, Mel, Banana" },
