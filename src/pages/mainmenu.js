@@ -17,6 +17,8 @@ function MainMenu(props) {
       <MenuSlides title='Pizzas' currentMenu='pizzas' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='Marmitas' currentMenu='marmitas' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='PROMOÇÕES' currentMenu='promos' setCurrentMenu={props.setCurrentMenu} />
+      <MenuSlides title='Caldos' currentMenu='caldos' setCurrentMenu={props.setCurrentMenu} />
+      <MenuSlides title='Petiscos' currentMenu='petiscos' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='Gelados' currentMenu='gelados' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='Bebidas' currentMenu='bebidas' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='Vegetariano' currentMenu='vegetariano' setCurrentMenu={props.setCurrentMenu} />
