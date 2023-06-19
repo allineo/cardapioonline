@@ -4,18 +4,18 @@ export const cardapio = {
     { "image": "frangocatupiry", "nome": "Pizza de Frango/Catupiry", "valor": "23,90", "unidade": "30cm - 6 fatias", "descricao": "Frango, Catupiry, Mussarela" },
     { "image": "calabresa", "nome": "Pizza de Calabresa", "valor": "23,90", "unidade": "30cm - 6 fatias", "descricao": "Calabresa, Mussarela" },
     { "image": "quatroqueijos", "nome": "Pizza Quatro Queijos", "valor": "23,90", "unidade": "30cm - 6 fatias", "descricao": "Catupiry, Cheddar, Prato, Mussarela" },
-    { "image": "marguerita", "nome": "Pizza Marguerita", "valor": "23,90", "unidade": "30cm - 6 fatias", "descricao": "Mussarela, Tomate, Manjericão, Parmesão ralado" }, 
+    { "image": "marguerita", "nome": "Pizza Marguerita", "valor": "23,90", "unidade": "30cm - 6 fatias", "descricao": "Mussarela, Tomate, Manjericão" }, 
     { "image": "mussarela", "nome": "Pizza Mozzarella", "valor": "23,90", "unidade": "30cm - 6 fatias", "descricao": "Mussarela" },
     { "image": "chocolate", "nome": "Fatia de Pizza de Chocolate", "valor": "6,90", "unidade": "1 fatia", "descricao": "Chocolate Ganache com Granulado" }
   ],
 
   "marmitas": [
-    { "image": "lasanha", "nome": "Lasanha a Bolonhesa", "valor": "23,90", "unidade": "400g", "descricao": "Mussarela, Patinho moído, Massa, Presunto, Orégano" },
+    { "image": "lasanha", "nome": "Lasanha a Bolonhesa", "valor": "23,90", "unidade": "400g", "descricao": "Mussarela, Carne moída, Molho Branco, Massa" },
     { "image": "feijoada", "nome": "Feijoada", "valor": "23,90", "unidade": "400g", "descricao": "Feijão Preto, Calabresa, Carne Seca, Couve, Arroz Branco" },
     { "image": "carneseca", "nome": "Escondidinho de Carne Seca", "valor": "23,90", "unidade": "400g", "descricao": "Carne Seca desfiada, Aipim, Queijo, Molho Branco" },
-    { "image": "marmitafitfrango", "nome": "Marmita Gourmet Fitness de Frango", "valor": "23,90", "unidade": "400g", "descricao": "Arroz Vermelho, Peito de Frango ao Molho de Tomate Fresco e Açafrâo da Terra, Legumes ao vapor" },
+    { "image": "marmitafitfrango", "nome": "Marmita Gourmet Fitness de Frango", "valor": "23,90", "unidade": "400g", "descricao": "Arroz Vermelho, Peito de Frango, Molho de Tomate e Açafrâo, Legumes ao vapor" },
     { "image": "quichecamarao", "nome": "Torta de Camarão (tipo Empadão)", "valor": "23,90", "unidade": "400g", "descricao": "Massa de Empadão, Recheio de Camarão, Cobertura de Queijo" },
-    { "image": "panquecavegana", "nome": "Panqueca de Alho Poró", "valor": "23,90", "unidade": "400g", "descricao": "Massa de Panqueca, Molho Branco de Alho Poró e Cenoura, Molho de Tomate Fresco e Açafrâo da Terra, Queijo" }
+    { "image": "panquecavegana", "nome": "Panqueca de Alho Poró", "valor": "23,90", "unidade": "400g", "descricao": "Panqueca, Molho Branco, Alho Poró, Cenoura, Tomate, Queijo" }
     //{ "image": "strogonofffilet", "nome": "Strogonoff de Filet Mignon", "valor": "23,90", "unidade": "400g", "descricao": "Strogonoff de Filet Mignon com Champignon, Arroz Branco e Batata Palha" }
   ],
 
@@ -27,6 +27,7 @@ export const cardapio = {
   
   "caldos": [
     { "image": "caldofeijao", "nome": "Caldo de Feijão (Feijão Amigo)", "valor": "21,90", "unidade": "400g", "descricao": "Caldo de Feijão Amigo, Paio, Couve, Torresminhos" }
+   // { "image": "caldoervilha", "nome": "Caldo de Ervilha", "valor": "21,90", "unidade": "400g", "descricao": "Caldo de Ervilha, Paio, Couve, Torresminhos" }
   ],
 
   "petiscos": [
@@ -39,10 +40,11 @@ export const cardapio = {
   ],
 
   "gelados": [
-    { "image": "sorvetecoco", "nome": "Sorvete de Côco com Ganache", "valor": "6,00", "unidade": "200 ml", "descricao": "Sorvete Artesanal de Côco Verde com Calda de Chocolate Ganache" },
-    { "image": "sorvetecreme", "nome": "Sorvete de Creme com Calda de Manga", "valor": "6,00", "unidade": "200 ml", "descricao": "Sorvete Artesanal de Creme com Calda de Manga" },
-    { "image": "sorveteovomaltine", "nome": "Sorvete de Ovomaltine", "valor": "6,00", "unidade": "200 ml", "descricao": "Sorvete Artesanal de Ovomaltine" },
-    { "image": "sorvetechocolate", "nome": "Sorvete de Chocolate com Calda de Café", "valor": "6,00", "unidade": "200 ml", "descricao": "Sorvete Artesanal de Chocolate com Calda de Café" },
+    { "image": "acai", "nome": "Açaí Batido com Calda de Morango", "valor": "8,00", "unidade": "200 ml", "descricao": "Açaí Batido com Banana e Leite Condensado e coberto com Calda de Morango" },
+    { "image": "sorvetecoco", "nome": "Sorvete de Côco com Ganache", "valor": "8,00", "unidade": "200 ml", "descricao": "Sorvete Artesanal de Côco Verde com Calda de Chocolate Ganache" },
+    { "image": "sorvetecreme", "nome": "Sorvete de Creme com Calda de Manga", "valor": "8,00", "unidade": "200 ml", "descricao": "Sorvete Artesanal de Creme com Calda de Manga" },
+    { "image": "sorveteovomaltine", "nome": "Sorvete de Ovomaltine", "valor": "8,00", "unidade": "200 ml", "descricao": "Sorvete Artesanal de Ovomaltine" },
+    { "image": "sorvetechocolate", "nome": "Sorvete de Chocolate com Calda de Café", "valor": "8,00", "unidade": "200 ml", "descricao": "Sorvete Artesanal de Chocolate com Calda de Café" },
     { "image": "sucoleuva", "nome": "Sucolé de Uva", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Suco de Uva Roxa Integral Macerado" },
     { "image": "sucoledetox", "nome": "Sucolé Detox", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Gengibre, Limão, Uva verde Macerada" },
     { "image": "sucolemorango", "nome": "Sucolé de Morango", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Morango Integral Macerado, Mel" },
@@ -52,7 +54,7 @@ export const cardapio = {
 
   "bebidas": [
     { "image": "sucouva", "nome": "Suco de Uva Integral", "valor": "9,00", "unidade": "taça - 300 ml", "descricao": "Uva Roxa Macerada (sem água, sem açúcar)" },
-    { "image": "sucolimao", "nome": "Limonada Suíça", "valor": "6,90", "unidade": "taça - 300 ml", "descricao": "Suco de Limão batido com casca" },
+    { "image": "sucolimao", "nome": "Limonada Suíça", "valor": "7,90", "unidade": "taça - 300 ml", "descricao": "Suco de Limão batido com casca" },
    // { "image": "sucomanga", "nome": "Suco de Manga Integral", "valor": "8,00", "unidade": "taça - 300 ml", "descricao": "Manga Macerada (sem água, sem açúcar)" },
     { "image": "heineken", "nome": "Cerveja Heineken", "valor": "11,00", "unidade": "latão - 470 ml", "descricao": "" },
     { "image": "brahma", "nome": "Cerveja Brahma", "valor": "10,00", "unidade": "latão - 470 ml", "descricao": "" },
@@ -61,8 +63,8 @@ export const cardapio = {
     { "image": "cocadiet", "nome": "Coca-Cola Sem Açúcar", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Coca-Cola diet (SEM açúcar)" },
     { "image": "guarana", "nome": "Guaraná Antártica", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Guaraná normal (com açúcar)" },
     { "image": "guaranadiet", "nome": "Guaraná Antártica Sem Açúcar", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Guaraná diet (SEM açúcar)" },
-    { "image": "aguasemgas", "nome": "Água Com ou Sem Gás", "valor": "5,00", "unidade": "500 ml", "descricao": "Garrafa de 500 ml de água com ou sem gás" }
-    { "image": "guaravitton", "nome": "GuaraVitton", "valor": "5,00", "unidade": "500 ml", "descricao": "Guaraná com Ginseng GuaraVitton" },
+    { "image": "aguasemgas", "nome": "Água Com ou Sem Gás", "valor": "5,00", "unidade": "500 ml", "descricao": "Garrafa de 500 ml de água com ou sem gás" },
+    { "image": "guaraviton", "nome": "GuaraViton", "valor": "5,00", "unidade": "500 ml", "descricao": "Guaraná com Ginseng GuaraViton" }
   ],
 
   "vegetariano": [

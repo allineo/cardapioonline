@@ -14,12 +14,12 @@ function Header(props) {
         <div className='home-header' onClick={() => props.setCurrentMenu('mainmenu')}>
             <Row>
                 <Col xs lg="2" className="align-center menuleft">
-                    <img src='chefericardo.png' className="App-logo" alt="Logo Chefe Ricardo" />
+                    <img src='chefericardo.png' className="App-logo" alt="Logo Petiscos do Chefe" />
                 </Col>
                 <Col xs lg="10">
                     <center>
                         <h1 className="home-title">
-                            Chefe Ricardo</h1>
+                            Petiscos do Chefe</h1>
                         <div className="home-subtitle">congelados delivery
                         </div>
                         <div className="home-icons">
