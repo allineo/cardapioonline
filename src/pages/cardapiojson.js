@@ -26,8 +26,11 @@ export const cardapio = {
   ],
   
   "caldos": [
-    { "image": "caldofeijao", "nome": "Caldo de Feijão (Feijão Amigo)", "valor": "21,90", "unidade": "400g", "descricao": "Caldo de Feijão Amigo, Paio, Couve, Torresminhos" }
-   // { "image": "caldoervilha", "nome": "Caldo de Ervilha", "valor": "21,90", "unidade": "400g", "descricao": "Caldo de Ervilha, Paio, Couve, Torresminhos" }
+    { "image": "caldofeijao", "nome": "Caldo de Feijão (Feijão Amigo)", "valor": "21,90", "unidade": "400g", "descricao": "Caldo de Feijão Amigo, Paio, Couve, Torresmo" },
+    { "image": "caldosiri", "nome": "Caldo de Siri", "valor": "23,90", "unidade": "400g", "descricao": "Carne de Siri, Tomate, Batata, Temperos" },
+    { "image": "capeletti", "nome": "Caldo de Capeletti com Frango", "valor": "23,90", "unidade": "200g", "descricao": "Capeletti, Frango Desfiado, Temperos" },
+    { "image": "caldoervilha", "nome": "Caldo de Ervilha", "valor": "21,90", "unidade": "400g", "descricao": "Caldo de Ervilha, Paio, Couve, Torresmo" },
+    { "image": "canjica", "nome": "Canjica Caseira", "valor": "8,00", "unidade": "200g", "descricao": "Extrato de Coco Verde, Milho Branco, Leite Condensado" }
   ],
 
   "petiscos": [
@@ -36,7 +39,7 @@ export const cardapio = {
     { "image": "paodequeijo", "nome": "Mini Pães de Queijo", "valor": "12,00", "unidade": "100g", "descricao": "Porção de Mini Pães de Queijo com Molho a escolher" },
     { "image": "queijocoalho", "nome": "Queijo Coalho com Mel e Orégano", "valor": "12,00", "unidade": "100g", "descricao": "Porção de Queijo Coalho assado com Mel e Orégano" },
     { "image": "dadinhomandioca", "nome": "Dadinhos de Mandioca (Aipim)", "valor": "12,00", "unidade": "100g", "descricao": "Porção de Dadinhos de Mandioca (Aipim) com Molho a escolher" },
-    { "image": "caldofeijao", "nome": "Caldo de Feijão (Feijão Amigo)", "valor": "21,90", "unidade": "400g", "descricao": "Caldo de Feijão Amigo, Paio, Couve, Torresminhos" }
+    { "image": "caldofeijao", "nome": "Caldo de Feijão (Feijão Amigo)", "valor": "21,90", "unidade": "400g", "descricao": "Caldo de Feijão Amigo, Paio, Couve, Torresmo" }
   ],
 
   "gelados": [
@@ -50,6 +53,7 @@ export const cardapio = {
     { "image": "sucolemorango", "nome": "Sucolé de Morango", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Morango Integral Macerado, Mel" },
     { "image": "sucolecoco", "nome": "Sucolé de Côco", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Leite extraído do côco verde, Leite condensado" },
     { "image": "sucoleacai", "nome": "Sucolé de Açaí", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Açaí, Mel, Banana" },
+    { "image": "canjica", "nome": "Canjica Caseira", "valor": "8,00", "unidade": "200g", "descricao": "Extrato de Coco Verde, Milho Branco, Leite Condensado" }
   ],
 
   "bebidas": [
@@ -59,9 +63,10 @@ export const cardapio = {
     { "image": "heineken", "nome": "Cerveja Heineken", "valor": "11,00", "unidade": "latão - 470 ml", "descricao": "" },
     { "image": "brahma", "nome": "Cerveja Brahma", "valor": "10,00", "unidade": "latão - 470 ml", "descricao": "" },
     { "image": "vinhotinto", "nome": "Vinho Tinto ou Branco", "valor": "55,00", "unidade": "garrafa", "descricao": "Cabernet Sauvignon, Chile, Concha Y Toro" },
-    { "image": "coca", "nome": "Coca-Cola", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Coca-Cola normal (com açúcar)" },
+    { "image": "cachaca", "nome": "Cachaça Artesanal Mineira", "valor": "40,00", "unidade": "garrafa", "descricao": "Cachaça Mineira Artesanal Tia Maria, edição Ouro" },
+    { "image": "coca", "nome": "Coca-Cola", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Coca-Cola  (com açúcar)" },
     { "image": "cocadiet", "nome": "Coca-Cola Sem Açúcar", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Coca-Cola diet (SEM açúcar)" },
-    { "image": "guarana", "nome": "Guaraná Antártica", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Guaraná normal (com açúcar)" },
+    { "image": "guarana", "nome": "Guaraná Antártica", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Guaraná (com açúcar)" },
     { "image": "guaranadiet", "nome": "Guaraná Antártica Sem Açúcar", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Guaraná diet (SEM açúcar)" },
     { "image": "aguasemgas", "nome": "Água Com ou Sem Gás", "valor": "5,00", "unidade": "500 ml", "descricao": "Garrafa de 500 ml de água com ou sem gás" },
     { "image": "guaraviton", "nome": "GuaraViton", "valor": "5,00", "unidade": "500 ml", "descricao": "Guaraná com Ginseng GuaraViton" }
@@ -73,6 +78,7 @@ export const cardapio = {
     { "image": "dadinhomandioca", "nome": "Dadinhos de Mandioca (Aipim)", "valor": "12,00", "unidade": "100g", "descricao": "Porção de Dadinhos de Mandioca (Aipim) com Molho a escolher" },
     { "image": "sorvetecoco", "nome": "Sorvete de Côco com Ganache", "valor": "5,00", "unidade": "200 ml", "descricao": "Sorvete de Côco seco, Calda de Chocolate Ganache" },
     { "image": "mussarela", "nome": "Pizza Mozzarella", "valor": "24,90", "unidade": "30cm - 6 fatias", "descricao": "Mussarela" },
+    { "image": "canjica", "nome": "Canjica Caseira", "valor": "8,00", "unidade": "200g", "descricao": "Extrato de Coco Verde, Milho Branco, Leite Condensado" },
     { "image": "sucouva", "nome": "Suco de Uva Integral", "valor": "8,00", "unidade": "taça - 300 ml", "descricao": "Uva Roxa Macerada (sem água, sem açúcar)" },
     { "image": "sucoledetox", "nome": "Sucolé Detox", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Gengibre, Limão, Uva verde Macerada" },
     { "image": "sucolemanga", "nome": "Sucolé de Manga", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Manga Integral Macerada Congelada" },
@@ -85,6 +91,7 @@ export const cardapio = {
     { "image": "misto", "nome": "Misto Quente", "valor": "8,00", "unidade": "100g", "descricao": "Pão artesanal, Queijo, Presunto" },
     /*{ "image": "bauru", "nome": "Baurú", "valor": "8,00", "unidade": "100g", "descricao": "Pão artesanal, Queijo, Tomate e Orégano" },
     { "image": "queijoquente", "nome": "Queijo Quente", "valor": "7,00", "unidade": "100g", "descricao": "Pão artesanal, Queijo duplo" },*/
-    { "image": "paochapa", "nome": "Pão na Chapa", "valor": "6,00", "unidade": "100g", "descricao": "Pão artesanal com Manteiga" }
+    { "image": "paochapa", "nome": "Pão na Chapa", "valor": "6,00", "unidade": "100g", "descricao": "Pão artesanal com Manteiga" },
+    { "image": "canjica", "nome": "Canjica Caseira", "valor": "8,00", "unidade": "200g", "descricao": "Extrato de Coco Verde, Milho Branco, Leite Condensado" }
   ]
 }
