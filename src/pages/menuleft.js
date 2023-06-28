@@ -4,7 +4,7 @@
 import '../css/list.css';
 
 import { IconContext } from "react-icons";
-import { GiFullPizza, GiSausage, GiTomato, GiBowlOfRice  } from 'react-icons/gi';
+import { GiFullPizza, GiSausage, GiTomato, GiBowlOfRice, GiHeartEarrings  } from 'react-icons/gi';
 import { BsInboxes } from 'react-icons/bs';
 import { FaIceCream, FaCoffee } from 'react-icons/fa';
 import { CiBadgeDollar } from 'react-icons/ci';
@@ -58,6 +58,11 @@ function MenuLeftPage(props) {
         <div className="list-icons" onClick={() => props.setCurrentMenu('cafes')} >
           <FaCoffee /><br />
           <b>Cafés</b>
+        </div>
+        <br />
+        <div className="list-icons" onClick={() => props.setCurrentMenu('souvenirs')} >
+          <GiHeartEarrings /><br />
+          <b>Souvenir</b>
         </div>
       </IconContext.Provider>
     </div>

@@ -23,6 +23,7 @@ function MainMenu(props) {
       <MenuSlides title='Bebidas' currentMenu='bebidas' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='Vegetariano' currentMenu='vegetariano' setCurrentMenu={props.setCurrentMenu} />
       <MenuSlides title='Cafés' currentMenu='cafes' setCurrentMenu={props.setCurrentMenu} />
+      <MenuSlides title='Souvenirs' currentMenu='souvenirs' setCurrentMenu={props.setCurrentMenu} />
     </div>);
 }
 

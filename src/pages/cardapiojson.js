@@ -90,11 +90,21 @@ export const cardapio = {
   ],
 
   "cafes": [
-    { "image": "cafe", "nome": "Café Coado na hora", "valor": "4,00", "unidade": "xícara - 100 ml", "descricao": "Café extra-forte coado na hora" },
+    { "image": "cafe", "nome": "Café Coado na hora", "valor": "4,00", "unidade": "xícara - 150 ml", "descricao": "Café extra-forte coado na hora" },
     { "image": "misto", "nome": "Misto Quente", "valor": "8,00", "unidade": "100 g", "descricao": "Pão artesanal, Queijo, Presunto" },
+   // { "image": "chamate", "nome": "Chá Mate", "valor": "4,00", "unidade": "xícara - 150 ml", "descricao": "Chá de Erva Mate infusado na hora" },
     /*{ "image": "bauru", "nome": "Baurú", "valor": "8,00", "unidade": "100 g", "descricao": "Pão artesanal, Queijo, Tomate e Orégano" },
     { "image": "queijoquente", "nome": "Queijo Quente", "valor": "7,00", "unidade": "100 g", "descricao": "Pão artesanal, Queijo duplo" },*/
     { "image": "paochapa", "nome": "Pão na Chapa", "valor": "6,00", "unidade": "100 g", "descricao": "Pão artesanal com Manteiga" },
+   // { "image": "chacacau", "nome": "Chá de Cacau", "valor": "4,00", "unidade": "xícara - 150 ml", "descricao": "Chá de Lascas de Cacau infusado na hora" }, 
+  //  { "image": "chai", "nome": "Chai Latte Massala", "valor": "4,00", "unidade": "xícara - 150 ml", "descricao": "Infusão de Chai Latte de Marsala, Cardamomo, Cúrcuma e demais especiarias" },
     { "image": "canjica", "nome": "Canjica Caseira", "valor": "8,00", "unidade": "200 ml", "descricao": "Extrato de Coco Verde, Milho Branco, Leite Condensado" }
+  ],
+
+  "souvenirs": [
+    { "image": "brincosmandala", "nome": "Brincos Mandala", "valor": "20,00", "unidade": "par", "descricao": "Brincos tipo Mandala Artesanais e Exclusivos" },
+    { "image": "brincopequeno", "nome": "Brincos e Anéis Pequenos", "valor": "8,00", "unidade": "par", "descricao": "Pequenos Brincos e Anéis Artesanais e Exclusivos" },
+    { "image": "mandalas", "nome": "Mandalas Porta Copos", "valor": "10,00", "unidade": "unidade", "descricao": "Porta Copos Artesanais e Exclusivos" },
+    { "image": "chaveiroilha", "nome": "Chaveiros e Imãs da Gigóia", "valor": "10,00", "unidade": "unidade", "descricao": "Chaveiro ou Imã da Ilha da Gigóia Artesanais" }
   ]
 }
