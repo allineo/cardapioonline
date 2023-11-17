@@ -7,8 +7,8 @@ import { FiMapPin } from 'react-icons/fi';
 
 function Header(props) {
     const urlzap = 'https://api.whatsapp.com/send?phone=5521981351099';
-    const urlinsta = 'https://www.instagram.com/chefe.ricardo';
-    const urlmaps = 'https://goo.gl/maps/ssGGhhTV5mrxTFAFA';
+    const urlinsta = 'https://www.instagram.com/petiscos.dochefe/';
+    const urlmaps = 'https://maps.app.goo.gl/SpRKmB1SpoPdaQa28';
     
     return (
         <div className='home-header' onClick={() => props.setCurrentMenu('mainmenu')}>
