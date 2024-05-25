@@ -5,7 +5,7 @@ export const cardapio = {
     { "image": "calabresa", "nome": "Pizza de Calabresa", "valor": "23,90", "unidade": "30 cm - 6 fatias", "descricao": "Calabresa, Mussarela" },
     { "image": "quatroqueijos", "nome": "Pizza Quatro Queijos", "valor": "23,90", "unidade": "30 cm - 6 fatias", "descricao": "Catupiry, Cheddar, Prato, Mussarela" },
    // { "image": "marguerita", "nome": "Pizza Marguerita", "valor": "23,90", "unidade": "30 cm - 6 fatias", "descricao": "Mussarela, Tomate, Manjericão" }, 
-    { "image": "mussarela", "nome": "Pizza Mozzarella", "valor": "23,90", "unidade": "30 cm - 6 fatias", "descricao": "Mussarela" }
+    { "image": "mussarela", "nome": "Pizza Mozzarella", "valor": "23,90", "unidade": "30 cm - 6 fatias", "descricao": "Molho de Tomate, Mussarela e Orégano" }
     //{ "image": "chocolate", "nome": "Fatia de Pizza de Chocolate", "valor": "6,90", "unidade": "1 fatia", "descricao": "Chocolate Ganache com Granulado" }
   ],
 
@@ -39,24 +39,24 @@ export const cardapio = {
   ],
 
   "espetos": [
-    { "image": "espetocarne", "nome": "Espetinho de Carne", "valor": "11,90", "unidade": "50 g", "descricao": "Espeto de Contra-Filet com Farofa e Molho a escolher" },
-    { "image": "espetofrango", "nome": "Espetinho de Frango", "valor": "11,90", "unidade": "50 g", "descricao": "Espeto de Peito de Frango com Farofa e Molho a escolher" },
-    { "image": "espetovegano", "nome": "Espetinho Vegano", "valor": "9,90", "unidade": "50 g", "descricao": "Espeto de Legumes assados com Farofa e Molho a escolher" },
-    { "image": "linguica", "nome": "Linguiça Mineira Artesanal", "valor": "11,90", "unidade": "50 g", "descricao": "Espeto de Linguiça Suína Mineira com Molho a escolher" },
-    { "image": "queijocoalho", "nome": "Queijo Coalho com Mel e Orégano", "valor": "9,90", "unidade": "50 g", "descricao": "Espeto de Queijo Coalho assado com Mel e Orégano" }
+    { "image": "espetocarne", "nome": "Espetinho de Carne", "valor": "11,90", "unidade": "50 g", "descricao": "Contra-Filet com Farofa e Molho Caseiro a escolher" },
+    { "image": "espetofrango", "nome": "Espetinho de Frango", "valor": "11,90", "unidade": "50 g", "descricao": "Peito de Frango com Farofa e Molho Caseiro a escolher" },
+    { "image": "espetovegano", "nome": "Espetinho Vegano", "valor": "9,90", "unidade": "50 g", "descricao": "Legumes assados com Molho Caseiro a escolher" },
+    { "image": "linguica", "nome": "Linguiça Mineira Artesanal", "valor": "9,90", "unidade": "50 g", "descricao": "Linguiça Suína Mineira com Molho Caseiro a escolher" },
+    { "image": "queijocoalho", "nome": "Queijo Coalho com Mel e Orégano", "valor": "9,90", "unidade": "50 g", "descricao": "Queijo Coalho assado com Mel e Orégano" }
   ],
 
   "petiscos": [
-    { "image": "torresmo", "nome": "Torresmo Gourmet", "valor": "20,00", "unidade": "300 g", "descricao": "Torresmo de Rolo com Geléia de Pimenta" },
-    { "image": "frangopassarinho", "nome": "Frango a Passarinho", "valor": "20,00", "unidade": "300 g", "descricao": "Pedaços de Frango a milanesa" },
-    { "image": "frangoKFC", "nome": "Frango Empanado (tipo KFC)", "valor": "20,00", "unidade": "300 g", "descricao": "Drumetes de Frango empanado" },
-    { "image": "salmao", "nome": "Bolinho de Salmão", "valor": "25,00", "unidade": "300 g", "descricao": "Bolinhos de Salmão crocante" },
-    { "image": "cebola", "nome": "Anéis de Cebola", "valor": "15,00", "unidade": "300 g", "descricao": "Porção de Cebola a Milanesa com Molho a escolher" },
+    { "image": "torresmo", "nome": "Torresmo Gourmet", "valor": "35,00", "unidade": "400 g", "descricao": "Torresmo de Rolo com Geléia de Pimenta" },
+    { "image": "frangopassarinho", "nome": "Frango a Passarinho", "valor": "30,00", "unidade": "300 g", "descricao": "Cortes de Frango pururucados" },
+    { "image": "frangoKFC", "nome": "Frango Empanado (tipo KFC)", "valor": "25,00", "unidade": "300 g", "descricao": "Coxinhas da Asa empanadas com Molho picante" },
+    { "image": "salmao", "nome": "Bolinho de Salmão", "valor": "32,00", "unidade": "6 un", "descricao": "Bolinhos de Salmão crocante com Molho Teriaki caseiro" },
+    { "image": "cebola", "nome": "Anéis de Cebola", "valor": "18,00", "unidade": "300 g", "descricao": "Cebolas Empanadas com Molho Caseiro" },
    // { "image": "linguica", "nome": "Linguiça Mineira Artesanal", "valor": "15,00", "unidade": "100 g", "descricao": "Porção de Linguiça Suína Mineira com Molho a escolher" },
-    { "image": "coxinha", "nome": "Mini Coxinhas (Frango ou Vegana)", "valor": "15,00", "unidade": "300 g", "descricao": "Porção de Mini Coxinhas de Frango ou Vegana com Molho a escolher" },
+    { "image": "coxinhas", "nome": "Mini Coxinhas (Frango ou Vegana)", "valor": "15,00", "unidade": "300 g", "descricao": "Mini Coxinhas de Frango ou Vegana com Molho Caseiro a escolher" },
    // { "image": "paodequeijo", "nome": "Mini Pães de Queijo", "valor": "12,00", "unidade": "100 g", "descricao": "Porção de Mini Pães de Queijo com Molho a escolher" },
    // { "image": "queijocoalho", "nome": "Queijo Coalho com Mel e Orégano", "valor": "15,00", "unidade": "100 g", "descricao": "Porção de Queijo Coalho assado com Mel e Orégano" },
-    { "image": "dadinhomandioca", "nome": "Dadinhos de Tapioca", "valor": "15,00", "unidade": "300 g", "descricao": "Porção de Dadinhos de Tapioca com Molho a escolher" },
+    { "image": "dadinho", "nome": "Dadinhos de Tapioca", "valor": "15,00", "unidade": "300 g", "descricao": "Tapioca assada em cubos com Molho Caseiro a escolher" },
     { "image": "caldofeijao", "nome": "Caldo de Feijão (Feijão Amigo)", "valor": "23,90", "unidade": "400 ml", "descricao": "Caldo de Feijão Amigo, Paio, Couve, Torresmo" }
   ],
 
@@ -97,16 +97,12 @@ export const cardapio = {
 
   "vegetariano": [
    // { "image": "panquecavegana", "nome": "Panqueca de Alho Poró", "valor": "23,90", "unidade": "400 ml", "descricao": "Massa de Panqueca, Molho Branco de Alho Poró e Cenoura, Molho de Tomate Fresco e Açafrâo da Terra, Queijo" },
-    { "image": "quatroqueijos", "nome": "Pizza Quatro Queijos", "valor": "23,90", "unidade": "30 cm - 6 fatias", "descricao": "Catupiry, Cheddar, Prato, Mussarela" },
-    { "image": "dadinhomandioca", "nome": "Dadinhos de Tapioca", "valor": "15,00", "unidade": "100 g", "descricao": "Porção de Dadinhos de Tapioca com Molho a escolher" },
+   { "image": "espetovegano", "nome": "Espetinho Vegano", "valor": "9,90", "unidade": "50 g", "descricao": "Legumes assados com Molho Caseiro a escolher" },
+   { "image": "dadinho", "nome": "Dadinhos de Tapioca", "valor": "15,00", "unidade": "100 g", "descricao": "Tapioca assada em cubos com Molho Caseiro a escolher" },
    // { "image": "sorvetecoco", "nome": "Sorvete de Côco com Chocolate", "valor": "5,00", "unidade": "200 ml", "descricao": "Sorvete de Côco seco, Calda de Chocolate" },
-    { "image": "mussarela", "nome": "Pizza Mozzarella", "valor": "24,90", "unidade": "30 cm - 6 fatias", "descricao": "Mussarela" },
-    { "image": "sucoleacai", "nome": "Sucolé de Açaí", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Açaí, Banana" },
-    // { "image": "canjica", "nome": "Canjica Caseira", "valor": "8,00", "unidade": "200 ml", "descricao": "Extrato de Coco Verde, Milho Branco, Leite Condensado" },
-   // { "image": "sucouva", "nome": "Suco de Uva Integral", "valor": "8,00", "unidade": "taça - 300 ml", "descricao": "Uva Roxa Macerada (sem água, sem açúcar)" },
-   // { "image": "sucoledetox", "nome": "Sucolé Detox", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Gengibre, Limão, Uva verde Macerada" },
-   // { "image": "sucolemanga", "nome": "Sucolé de Manga", "valor": "5,00", "unidade": "saquinho - 100 ml", "descricao": "Manga Integral Macerada Congelada" },
-   // { "image": "chocolate", "nome": "Fatia de Pizza de Chocolate", "valor": "6,90", "unidade": "1 fatia", "descricao": "Chocolate Ganache com Granulado" },
+    { "image": "mussarela", "nome": "Pizza Mozzarella", "valor": "23,90", "unidade": "30 cm - 6 fatias", "descricao": "Molho de Tomate, Mussarela e Orégano" },
+    { "image": "acai", "nome": "Açaí com Frutas Vermelhas", "valor": "8,00", "unidade": "200 ml", "descricao": "Açaí batido com Banana e coberto com Calda de Frutas Vermelhas" },
+    { "image": "gnocchi", "nome": "Gnocchi ao Gorgonzola", "valor": "23,90", "unidade": "400 ml", "descricao": "Massa de Batata, Molho de Queijo Gorgonzola, Orégano" },
     { "image": "vinhotinto", "nome": "Vinho Tinto ou Branco", "valor": "55,00", "unidade": "garrafa", "descricao": "Cabernet Sauvignon, Chile, Concha Y Toro" }
   ],
 
