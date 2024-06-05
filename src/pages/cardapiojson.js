@@ -50,7 +50,8 @@ export const cardapio = {
     { "image": "torresmo", "nome": "Torresmo Gourmet", "valor": "35,00", "unidade": "400 g", "descricao": "Torresmo de Rolo com Geléia de Pimenta" },
     { "image": "frangopassarinho", "nome": "Frango a Passarinho", "valor": "30,00", "unidade": "300 g", "descricao": "Cortes de Frango pururucados" },
     { "image": "frangoKFC", "nome": "Frango Empanado (tipo KFC)", "valor": "25,00", "unidade": "300 g", "descricao": "Coxinhas da Asa empanadas com Molho picante" },
-    { "image": "salmao", "nome": "Bolinho de Salmão", "valor": "32,00", "unidade": "6 un", "descricao": "Bolinhos de Salmão crocante com Molho Teriaki caseiro" },
+    { "image": "salmao", "nome": "Bolinho de Salmão", "valor": "30,00", "unidade": "6 un", "descricao": "Bolinhos de Salmão crocante com Molho Teriaki caseiro" },
+    { "image": "batatacalabresa", "nome": "Batata Frita com Calabresa", "valor": "25,00", "unidade": "300 g", "descricao": "Batata Palito com Calabresa e Molho Barbecue" },
     { "image": "cebola", "nome": "Anéis de Cebola", "valor": "18,00", "unidade": "300 g", "descricao": "Cebolas Empanadas com Molho Caseiro" },
    // { "image": "linguica", "nome": "Linguiça Mineira Artesanal", "valor": "15,00", "unidade": "100 g", "descricao": "Porção de Linguiça Suína Mineira com Molho a escolher" },
     { "image": "coxinhas", "nome": "Mini Coxinhas (Frango ou Vegana)", "valor": "15,00", "unidade": "300 g", "descricao": "Mini Coxinhas de Frango ou Vegana com Molho Caseiro a escolher" },
@@ -79,7 +80,8 @@ export const cardapio = {
   ],
 
   "bebidas": [
-    { "image": "sucouva", "nome": "Sucos Integrais", "valor": "13,90", "unidade": "garrafa - 450 ml", "descricao": "Açaí, Manga, Uva ou Detox (sem água, sem açúcar)" },
+    { "image": "chopp", "nome": "Chopp", "valor": "4,99", "unidade": "200 ml", "descricao": "Chopp Artesanal" },
+    { "image": "sucos", "nome": "Sucos Integrais", "valor": "13,90", "unidade": "garrafa - 450 ml", "descricao": "Açaí, Manga, Uva ou Detox (sem água, sem açúcar)" },
     { "image": "sodaitaliana", "nome": "Soda Italiana", "valor": "9,90", "unidade": "taça - 300 ml", "descricao": "Maça verde, Frutas Vermelhas, Blue Curaçau ou Limão Siciliano" },
     // { "image": "sucolimao", "nome": "Limonada Suíça", "valor": "7,90", "unidade": "taça - 300 ml", "descricao": "Suco de Limão batido com casca" },
    // { "image": "sucomanga", "nome": "Suco de Manga Integral", "valor": "8,00", "unidade": "taça - 300 ml", "descricao": "Manga Macerada (sem água, sem açúcar)" },
@@ -87,7 +89,7 @@ export const cardapio = {
     { "image": "brahma", "nome": "Cerveja Brahma", "valor": "9,00", "unidade": "latão - 470 ml", "descricao": "" },
     { "image": "vinhotinto", "nome": "Vinho Tinto ou Branco", "valor": "45,00", "unidade": "garrafa", "descricao": "Cabernet Sauvignon, Chile, Concha Y Toro" },
     { "image": "cachaca", "nome": "Cachaça Artesanal Mineira", "valor": "7,00", "unidade": "dose", "descricao": "Cachaça Mineira Artesanal Tia Maria, edição Ouro" },
-    { "image": "coca", "nome": "Coca-Cola", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Coca-Cola  (com açúcar)" },
+    { "image": "coca", "nome": "Refrigerante Lata", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Coca-Cola  (com açúcar)" },
     { "image": "cocadiet", "nome": "Coca-Cola Sem Açúcar", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Coca-Cola diet (SEM açúcar)" },
     { "image": "guarana", "nome": "Guaraná Antártica", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Guaraná (com açúcar)" },
     { "image": "guaranadiet", "nome": "Guaraná Antártica Sem Açúcar", "valor": "6,00", "unidade": "lata - 300 ml", "descricao": "Guaraná diet (SEM açúcar)" },
@@ -109,7 +111,7 @@ export const cardapio = {
   "cafes": [
     { "image": "cafe", "nome": "Café Coado na hora", "valor": "4,00", "unidade": "xícara - 150 ml", "descricao": "Café extra-forte coado na hora" },
    // { "image": "misto", "nome": "Misto Quente/Bauru", "valor": "8,00", "unidade": "100 g", "descricao": "Pão, Queijo, Presunto" },
-    { "image": "cha", "nome": "Sucos Integrais", "valor": "6,00", "unidade": "xícara - 150 ml", "descricao": "Chá a escolher infusado na hora" },
+    { "image": "cha", "nome": "Chás Diversos", "valor": "6,00", "unidade": "xícara - 150 ml", "descricao": "Chá a escolher infusado na hora" },
     { "image": "chocolate", "nome": "Chocolate Artesanal", "valor": "10,00", "unidade": "saquinho - 4 un", "descricao": "Manteiga de Cacau, Cacau em pó" }
     // { "image": "bauru", "nome": "Misto Quente/ Bauru", "valor": "9,00", "unidade": "100 g", "descricao": "Pão, Queijo, Tomate e Orégano" },
    // { "image": "queijoquente", "nome": "Queijo Quente", "valor": "7,00", "unidade": "100 g", "descricao": "Pão artesanal, Queijo duplo" },*/
